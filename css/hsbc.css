@@ -1,0 +1,90 @@
+/* IMPORTED */
+/* Material Design Icons recommended styles */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* CONTAINER */
+@media screen and (min-width: 1920px) {
+    .hsbc-container {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1920px) {
+    .hsbc-container {
+        width: 100vw;
+    }
+}
+
+/* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo and nav */
+
+/*navigation*/
+.navbar-fixed,
+.hsbc-nav-container,
+.hsbc-nav-container nav {
+    height: 88px;
+}
+
+.hsbc-nav-container>.row {
+    margin: 0;
+    padding: 0;
+}
+
+li.hsbc-nav-item>a {
+    padding-top: 24px;
+}
+
+/*jumbo*/
+.hsbc-jumbo-container {
+    margin-bottom: -30vh;
+}
+
+.hsbc-jumbo {
+    height: 80vh;
+}
+
+.hsbc-jumbo-content {
+    height: 30vh;
+    position: relative;
+    top: -30vh;
+}
+
+.hsbc-jumbo-content>.row>.col {
+    padding: 0 24px;
+}
+
+.hsbc-jumbo-text {
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 1px 4px 2px #000;
+    width: 100%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.hsbc-jumbo-text-placeholder {
+    height: 4.2rem;
+}
+
+@media (min-width: 992px) {
+    .hsbc-jumbo-text-placeholder {
+        display: none;
+    }
+}
+
+.hsbc-jumbo-content a {
+    display: block;
+}
+
+
+/* TODO TABLET VIEW */
+
+/* TODO MOBILE VIEW */

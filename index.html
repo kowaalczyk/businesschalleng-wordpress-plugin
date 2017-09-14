@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>High School Business Challenge Dev Theme</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialized CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/hsbc.css">
+</head>
+
+<!-- TODO: Finish templating posts -->
+<!-- TODO: Create page mock-ups with content from last year -->
+<!-- TODO: Check page behaviour on Firefox and mobile devices -->
+<!-- TODO: Organize text and background colors across all elements -->
+<!-- TODO: Create theme PHPs (v0.1 -> just render the content from last year) -->
+<!-- TODO: Move to working on local dev server -->
+<!-- TODO: Find a plugin to upload images with compression and cropping -->
+<!-- TODO: Upload original images and check their positioning -->
+<!-- TODO: Integrate posts in home page with ACF Plugin (v0.2 -> Conditionally rendered content for just the news page) -->
+<!-- TODO: Integrate other pages with ACF Plugin (v0.3 -> All pages rendered based on WP content) -->
+<!-- TODO: Integrate routes to edition pages to render conditionally based on # of created pages (v0.4) -->
+<!-- TODO: Make sure routing is safe -->
+<!-- TODO: Deploy ACF settings to server, find a way to copy the content -->
+<!-- TODO: Upload theme to the server, make sure it works (v1.0 -> working remotely) -->
+<!-- TODO: Move domain to forpsi, make sure it connects and cancel DO server DEADLINE: 30.09 -->
+<!-- TODO: Implement caching plugin and whatever else is necessary to improve speed (v1.1 -> with caching (??? and bundling ???) ) -->
+<!-- TODO: Write admin manual -->
+<!-- TODO: Integrate jQuery UI-routing for page-content (v2.0 -> with UI routing and dynamic preloading)-->
+
+<body class="grey lighten-4">
+    <!-- HEADER NAV -->
+    <ul id="edition-dropdown" class="dropdown-content black-text">
+        <li>
+            <a href="/edition-1" class="grey-text text-darken-4">Edycja 1</a>
+        </li>
+        <li>
+            <a href="/edition-2" class="grey-text text-darken-4">Edycja 2</a>
+        </li>
+        <li>
+            <a href="/edition-3" class="grey-text text-darken-4">Edycja 3</a>
+        </li>
+    </ul>
+
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav class="nav-extended white hsbc-nav-container">
+            <div class="row">
+                <div class="col m2 l1">
+                    <i class="material-icons md-48 md-dark">insert_chart</i>
+                    <!--TODO: Contest Logo in SVG-->
+                </div>
+                <div class="col m10 l11">
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li class="active hsbc-nav-item">
+                                <a href="/" class="grey-text text-darken-4">Bieżąca edycja</a>
+                            </li>
+                            <li class="hsbc-nav-item">
+                                <a href="#!" class="grey-text text-darken-4 dropdown-button" data-activates="edition-dropdown">Poprzednie edycje</a>
+                            </li>
+                            <li class="hsbc-nav-item">
+                                <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a></li>
+                            <li class="hsbc-nav-item">
+                                <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>
+                            </li>
+                            <li class="hsbc-nav-item">
+                                <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>
+                            </li>
+                            <li class="hsbc-nav-item">
+                                <a href="/org" class="grey-text text-darken-4">Organizatorzy</a>
+                            </li>
+                            <li class="hsbc-nav-item">
+                                <a href="/contact" class="grey-text text-darken-4">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- TODO SIDE NAV -->
+
+    <div class="container hsbc-container">
+        <!-- JUMBO WITH LINKS -->
+        <div class="hide-on-small-only hsbc-jumbo-container">
+            <div class="parallax-container hsbc-jumbo">
+                <div class="parallax"><img src="http://via.placeholder.com/1280x720" alt="High School Business Challenge"></div>
+            </div>
+            <div class="hsbc-jumbo-content">
+                <!-- jumbo heading -->
+                <div class="row">
+                    <div class="col l12 hide-on-med-and-down">
+                        <h1 class="hsbc-jumbo-text">
+                            High School Business Challenge
+                        </h1>
+                    </div>
+                    <div class="col l12 hsbc-jumbo-text-placeholder">
+                        <!-- whitespace -->
+                    </div>
+                </div>
+
+                <!-- jumbo buttons -->
+                <div class="valign-wrapper row">
+                    <div class="col m3 l3">
+                        <a class="card-panel hoverable center-align yellow black-text"
+                           href="#aktualnosci">
+                            AKTUALNOŚCI
+                        </a>
+                    </div>
+                    <div class="col m3 l3">
+                        <a class="card-panel hoverable red center-align"
+                           href="#o-konkursie">
+                            O KONKURSIE
+                        </a>
+                    </div>
+                    <div class="col m3 l3">
+                        <a class="card-panel hoverable blue center-align"
+                           href="#harmonogram">
+                            HARMONOGRAM
+                        </a>
+                    </div>
+                    <div class="col m3 l3">
+                        <a class="card-panel hoverable green center-align"
+                           href="#faq">
+                            FAQ I REGULAMIN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-small hsbc-mobile-jumbo">
+            <!--TODO-->
+        </div>
+        <div class="show-small hsbc-mobile-jumbo-links">
+            <!--TODO-->
+        </div>
+
+        <!-- JUMBO -->
+        <div class="parallax-container">
+            <div class="parallax"><img src="http://via.placeholder.com/1280x720" alt="High School Business Challenge"></div>
+        </div>
+
+        <!-- SUB-PAGE WITH HEADER BAR -->
+        <!--v2-->
+        <div class="card">
+            <div class="card-image">
+                <img src="http://via.placeholder.com/1280x720" alt="HSBC Test Card">
+                <h3 class="card-title">Aktualności</h3>
+            </div>
+            <div class="card-content">
+                <!--INSERT POSTS-->
+            </div>
+        </div>
+
+        <!--v2 with toolbar instead of image header-->
+        <div class="card">
+            <div class="card-content black">
+                <h3 class="card-title white-text">
+                    Aktualności
+                </h3>
+            </div>
+            <div class="card-content">
+                <!-- POST (with subheaders) -->
+                <div class="section">
+                    <h4>
+                        Post header size is H4.
+                    </h4>
+                    <h5>Post subheader is H5</h5>
+                    <p class="flow-text">
+                        Card paragraph text.
+                    </p>
+                    <h5>Multiple subheaders separate content of the post</h5>
+                    <p class="flow-text">
+                        Sume more content of the post.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem ipsum, porta a nunc id, eleifend mattis nisl. Quisque volutpat sagittis nibh, quis vehicula nulla fermentum at. Aliquam nulla augue, vehicula gravida fringilla vel, ultrices vitae arcu. Sed congue ex porta, ullamcorper purus sed, fringilla diam. Donec semper porta gravida. Cras nulla leo, porttitor aliquam accumsan a, iaculis vel elit. Curabitur tincidunt congue sem ac molestie. Duis luctus justo et ex volutpat, sodales condimentum dui mattis. Ut vitae interdum felis, consequat feugiat nibh. Vestibulum neque sapien, faucibus tincidunt mollis non, blandit ut leo. Nulla fringilla vitae tortor sit amet hendrerit. Morbi vitae nisi quis ligula venenatis facilisis a vel ligula. Donec erat eros, bibendum vitae dolor id, aliquet egestas sem. In non ligula felis. In tempor felis in volutpat mollis. Phasellus lacus diam, lacinia a egestas ut, pulvinar nec dui.
+                    </p>
+                </div>
+                <div class="divider"></div>
+
+                <!-- POST (without subheaders) -->
+                <div class="section">
+                    <h4>
+                        Post header is required for all types of posts.
+                    </h4>
+                    <p class="flow-text">
+                        This post has no subheaders.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem ipsum, porta a nunc id, eleifend mattis nisl. Quisque volutpat sagittis nibh, quis vehicula nulla fermentum at. Aliquam nulla augue, vehicula gravida fringilla vel, ultrices vitae arcu. Sed congue ex porta, ullamcorper purus sed, fringilla diam. Donec semper porta gravida. Cras nulla leo, porttitor aliquam accumsan a, iaculis vel elit. Curabitur tincidunt congue sem ac molestie. Duis luctus justo et ex volutpat, sodales condimentum dui mattis. Ut vitae interdum felis, consequat feugiat nibh. Vestibulum neque sapien, faucibus tincidunt mollis non, blandit ut leo. Nulla fringilla vitae tortor sit amet hendrerit. Morbi vitae nisi quis ligula venenatis facilisis a vel ligula. Donec erat eros, bibendum vitae dolor id, aliquet egestas sem. In non ligula felis. In tempor felis in volutpat mollis. Phasellus lacus diam, lacinia a egestas ut, pulvinar nec dui.
+                    </p>
+                </div>
+                <div class="divider"></div>
+
+                <!-- POST WITH IMAGE -->
+                <div class="section">
+                    <h4>
+                        Post header size is H4.
+                    </h4>
+                    <p class="flow-text">
+                        Post standard paragraph text will always appear before the row with image and text if it is provided.
+                    </p>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <p class="flow-text">
+                                Card text around image.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem ipsum, porta a nunc id, eleifend mattis nisl. Quisque volutpat sagittis nibh, quis vehicula nulla fermentum at. Aliquam nulla augue, vehicula gravida fringilla vel, ultrices vitae arcu. Sed congue ex porta, ullamcorper purus sed, fringilla diam. Donec semper porta gravida. Cras nulla leo, porttitor aliquam accumsan a, iaculis vel elit. Curabitur tincidunt congue sem ac molestie. Duis luctus justo et ex volutpat, sodales condimentum dui mattis. Ut vitae interdum felis, consequat feugiat nibh. Vestibulum neque sapien, faucibus tincidunt mollis non, blandit ut leo. Nulla fringilla vitae tortor sit amet hendrerit. Morbi vitae nisi quis ligula venenatis facilisis a vel ligula. Donec erat eros, bibendum vitae dolor id, aliquet egestas sem. In non ligula felis. In tempor felis in volutpat mollis. Phasellus lacus diam, lacinia a egestas ut, pulvinar nec dui.
+                            </p>
+                        </div>
+                        <div class="col s12 m6">
+                            <img class="responsive-img" src="http://via.placeholder.com/640x640" alt="Card post image">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- no divider at the end of post list -->
+            </div>
+        </div>
+
+        <!-- POST WITH FLASHY BUTTON -->
+
+        <!-- POST WITH MANY BUTTONS -->
+
+        <!-- TEAM LARGE -->
+
+        <!-- TEAM LIST HORIZONTAL -->
+
+        <!-- WINNING TEAM LARGE -->
+
+        <!-- PARTNER WITH LOGO -->
+
+        <!-- PARTNERS GALLERY -->
+
+        <!-- MEDIA IMAGE -->
+
+        <!-- MEDIA GALLERY -->
+
+        <!-- MEDIA VIDEO -->
+
+        <!-- FOOTER -->
+    </div>
+
+    <!--###################################### JavaScript ######################################-->
+    <!-- IMPORTS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- HSBC -->
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.dropdown-button').dropdown({hover: true});
+        });
+    </script>
+</body>
+</html>
