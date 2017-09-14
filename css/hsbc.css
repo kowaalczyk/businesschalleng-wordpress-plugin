@@ -84,6 +84,13 @@ li.hsbc-nav-item>a {
     display: block;
 }
 
+/*post content*/
+.hsbc-flashy-btn {
+    margin-top: 32px;
+    display: block;
+    width: 100%;
+}
+
 
 /* TODO TABLET VIEW */
 
