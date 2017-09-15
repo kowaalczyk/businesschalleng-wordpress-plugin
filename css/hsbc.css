@@ -84,11 +84,28 @@ li.hsbc-nav-item>a {
     display: block;
 }
 
+/*card*/
+h3.card-title.hsbc-card-title {
+    font-size: 2.28rem;
+    margin: 1.168rem 0 0 0;
+}
+
 /*post content*/
 .hsbc-flashy-btn {
     margin-top: 32px;
     display: block;
     width: 100%;
+}
+
+.hsbc-btn {
+    margin-top: 32px;
+    padding-top: 2px;
+}
+
+.flow-text {
+    /* overriding default justify from materialize */
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
