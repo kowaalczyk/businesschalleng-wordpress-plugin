@@ -26,7 +26,7 @@
 
 /* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo and nav */
 
-/*navigation*/
+/* navigation */
 .navbar-fixed,
 .hsbc-nav-container,
 .hsbc-nav-container nav {
@@ -42,7 +42,7 @@ li.hsbc-nav-item>a {
     padding-top: 24px;
 }
 
-/*jumbo*/
+/* jumbo */
 .hsbc-jumbo-container {
     margin-bottom: -30vh;
 }
@@ -84,13 +84,13 @@ li.hsbc-nav-item>a {
     display: block;
 }
 
-/*card*/
+/* card */
 h3.card-title.hsbc-card-title {
     font-size: 2.28rem;
     margin: 1.168rem 0 0 0;
 }
 
-/*post content*/
+/* post content */
 .hsbc-flashy-btn {
     margin-top: 32px;
     display: block;
@@ -108,6 +108,14 @@ h3.card-title.hsbc-card-title {
     text-justify: inter-word;
 }
 
+/* team list */
+.hsbc-team-title {
+    font-weight: bold;
+}
+
+.hsbc-team-list-circle {
+    margin-top: 8px;
+}
 
 /* TODO TABLET VIEW */
 
