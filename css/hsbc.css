@@ -109,7 +109,11 @@ h3.card-title.hsbc-card-title {
 }
 
 /* team list */
-.hsbc-team-title {
+.hsbc-team-list-wrapper {
+    margin-top: 32px;
+}
+
+.hsbc-li-title {
     font-weight: bold;
 }
 
