@@ -27,6 +27,20 @@
 /* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo and nav */
 
 /* navigation */
+.hsbc-logo-container>img {
+    /* TODO: Fucking logo not working */
+    width: 88px;
+    height: 88px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.col.hsbc-logo-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 .navbar-fixed,
 .hsbc-nav-container,
 .hsbc-nav-container nav {
