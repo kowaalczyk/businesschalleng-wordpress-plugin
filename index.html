@@ -201,11 +201,29 @@
                             </p>
                         </div>
                         <div class="col s12 m6">
-                            <img class="responsive-img" src="http://via.placeholder.com/640x640" alt="Card post image">
+                            <img class="responsive-img materialboxed"
+                                 src="http://via.placeholder.com/640x640"
+                                 data-caption="Optional caption for the image displayed on click"
+                                 alt="Always equals data-caption for materialboxed images">
                         </div>
                     </div>
                 </div>
                 <div class="divider"></div>
+
+                <!-- POST WITH IMAGE (full page) -->
+                <div class="section">
+                    <h4>
+                        Full-page image
+                    </h4>
+                    <p class="flow-text">
+                        Image post can have half-page or full-page image (on smaller devices all images become full-page).
+                        Both types of images extend on click by default, but this option can be disabled in post settings.
+                    </p>
+                    <img class="responsive-img materialboxed"
+                         src="http://via.placeholder.com/1280x720"
+                         data-caption="Optional caption for the image displayed on click"
+                         alt="Always equals data-caption for materialboxed images">
+                </div>
 
                 <!-- POST WITH FLASHY BUTTON -->
                 <div class="section">
@@ -604,6 +622,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="divider"></div>
+
+                <!-- MEDIA GALLERY -->
+
+                <!-- MEDIA VIDEO -->
 
                 <!-- no divider at the end of post list -->
             </div>
@@ -616,19 +639,13 @@
                 <h3 class="card-title">O konkursie</h3>
             </div>
             <div class="card-content">
-                <!--INSERT POSTS-->
+                <!-- PARTNER WITH LOGO -->
+
+                <!-- PARTNERS GALLERY -->
+
+                <!-- no divider at the end of post list -->
             </div>
         </div>
-
-        <!-- PARTNER WITH LOGO -->
-
-        <!-- PARTNERS GALLERY -->
-
-        <!-- MEDIA IMAGE -->
-
-        <!-- MEDIA GALLERY -->
-
-        <!-- MEDIA VIDEO -->
 
         <!-- FOOTER -->
 
@@ -645,6 +662,7 @@
         $(document).ready(function(){
             $('.parallax').parallax();
             $('.dropdown-button').dropdown({hover: true});
+            $('.materialboxed').materialbox();
         });
 
         var $root = $('html, body');
