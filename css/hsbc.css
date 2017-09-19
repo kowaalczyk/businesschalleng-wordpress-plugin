@@ -121,6 +121,16 @@ h3.card-title.hsbc-card-title {
     margin-top: 8px;
 }
 
+.hsbc-right-subtitle {
+    font-size: 67%;
+    text-transform: uppercase;
+}
+
+.hsbc-li-finalist-title * {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
 /* TODO TABLET VIEW */
 
 /* TODO MOBILE VIEW */
