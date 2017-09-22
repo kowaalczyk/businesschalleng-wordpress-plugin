@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>High School Business Challenge Dev Theme</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialized CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/hsbc.css">
+</head>
+
+<body>
+<!-- TODO END PHP HEADER -->
+
+    <!-- PAGE CONTENT -->
+    <!-- PAGE CONTENT -->
+    <!-- PAGE CONTENT -->
+
+<!-- TODO BEGIN FOOTER -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">
+                        FOOTER TITLE
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        Footer content (address and contact info will go here)
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Follow us</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Snap</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Insta</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © SKN Biznesu
+                <span class="grey-text text-lighten-4 right">
+                        Projekt i wykonanie strony: Krzysztof Kowalczyk
+                    </span>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!--###################################### JavaScript ######################################-->
+    <!-- IMPORTS -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- HSBC -->
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.dropdown-button').dropdown({hover: true});
+            $('.materialboxed').materialbox();
+        });
+
+        var $root = $('html, body');
+        $('a.hsbc-scroll').click(function() {
+            var href = $.attr(this, 'href');
+            // TODO: Fix scrolling offset on devices with small navbar
+            $root.animate({
+                scrollTop: $(href).offset().top - 88
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
+</body>
+</html>
