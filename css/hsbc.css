@@ -42,19 +42,25 @@
     height: 88px;
 }
 
-.navbar-fixed,
-.hsbc-nav-container,
-.hsbc-nav-container nav {
+#hsbc-big-navbar .navbar-fixed,
+#hsbc-big-navbar .hsbc-nav-container,
+#hsbc-big-navbar .hsbc-nav-container nav {
     height: 88px;
 }
 
-.hsbc-nav-container>.row {
+#hsbc-big-navbar .hsbc-nav-container>.row {
     margin: 0;
     padding: 0;
 }
 
-li.hsbc-nav-item>a {
+#hsbc-big-navbar li.hsbc-nav-item>a {
     padding-top: 24px;
+}
+
+#hsbc-small-navbar>nav a.brand-logo {
+    width: 100%;
+    text-align: center;
+    margin: auto;
 }
 
 /* jumbo */
