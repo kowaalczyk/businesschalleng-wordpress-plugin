@@ -105,6 +105,12 @@
     display: block;
 }
 
+@media (max-width: 824px) {
+    .hsbc-jumbo-content a {
+        display: none;
+    }
+}
+
 /* card */
 h3.card-title.hsbc-card-title {
     font-size: 2.28rem;
