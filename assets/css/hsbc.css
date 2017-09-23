@@ -112,6 +112,10 @@
 }
 
 /* card */
+.card-image>img {
+    max-height: 80vh;
+}
+
 h3.card-title.hsbc-card-title {
     font-size: 2.28rem;
     margin: 1.168rem 0 0 0;
