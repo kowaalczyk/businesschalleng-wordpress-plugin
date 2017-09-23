@@ -139,6 +139,7 @@
         </div>
     </div>
 </footer>
+
 <!--###################################### JavaScript ######################################-->
 <!-- IMPORTS -->
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
@@ -150,6 +151,11 @@
         $('.parallax').parallax();
         $('.dropdown-button').dropdown({hover: true});
         $('.materialboxed').materialbox();
+        $('.button-collapse').sideNav({
+            menuWidth: 300,
+            closeOnClick: true,
+            draggable: true
+        });
     });
 
     var $root = $('html, body');
