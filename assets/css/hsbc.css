@@ -112,7 +112,8 @@
 }
 
 /* card */
-.card-image>img {
+.card-image {
+    overflow: hidden;
     max-height: 80vh;
 }
 
