@@ -24,11 +24,10 @@
     }
 }
 
-/* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo and nav */
+/* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo */
 
 /* navigation */
 .hsbc-logo-container>img {
-    /* TODO: Fucking logo not working */
     width: 88px;
     height: 88px;
     padding: 0;
@@ -168,7 +167,3 @@ h3.card-title.hsbc-card-title {
     font-weight: bold;
     font-size: 1.15rem;
 }
-
-/* TODO TABLET VIEW */
-
-/* TODO MOBILE VIEW */

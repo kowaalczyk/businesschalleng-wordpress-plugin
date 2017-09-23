@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>High School Business Challenge Dev Theme</title>
-
-    <meta charset="UTF-8">
-
-    <!-- Material Design Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Materialized CSS -->
-    <link rel="stylesheet" href="assets/css/materialize.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/hsbc.css">
-</head>
-
-<body>
-<!-- TODO END PHP HEADER -->
-
+<!-- NAVIGATION -->
     <!-- HEADER NAV -->
     <ul id="edition-dropdown" class="dropdown-content black-text">
         <li><a href="/edition-1" class="grey-text text-darken-4">Edycja 1</a></li>
@@ -93,7 +75,7 @@
         </nav>
     </div>
 
-<!-- always remember to open this tag:-->
+<!-- CONTENT -->
 <div class="container hsbc-container">
 
     <div class="card" id="partnerzy">
@@ -109,75 +91,3 @@
         </div>
     </div>
 </div>
-
-<!-- TODO BEGIN FOOTER -->
-<footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">
-                    High School Business Challenge
-                </h5>
-                <p class="grey-text text-lighten-4">
-                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-1">kontakt@businesschallenge.pl</a>
-                    <br>
-                <address>
-                    SKN BIZNESU <br>
-                    Szkoła Główna Handlowa <br>
-                    aleja Niepodległości 162 <br>
-                    02-554 Warszawa <br>
-                </address>
-                </p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Follow us</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/hsbcpoland/">Facebook</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC8bdfqrExupyU2WGevCsCig">YouTube</a></li>
-                    <li><a class="grey-text text-lighten-3" href="http://sknbiznes.pl/">SKN Biznesu</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © SKN Biznesu
-            <span class="grey-text text-lighten-4 right">
-                    Projekt i wykonanie strony: Krzysztof Kowalczyk
-                </span>
-        </div>
-    </div>
-</footer>
-
-<!--###################################### JavaScript ######################################-->
-<!-- IMPORTS -->
-<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.min.js"></script>
-
-<!-- HSBC -->
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-        $('.dropdown-button').dropdown({hover: true});
-        $('.materialboxed').materialbox();
-        $('.button-collapse').sideNav({
-            menuWidth: 300,
-            closeOnClick: true,
-            draggable: true
-        });
-    });
-
-    var $root = $('html, body');
-    $('a.hsbc-scroll').click(function() {
-        var href = $.attr(this, 'href');
-        // TODO: Fix scrolling offset on devices with small navbar
-        $root.animate({
-            scrollTop: $(href).offset().top - 88
-        }, 500, function () {
-            window.location.hash = href;
-        });
-        return false;
-    });
-</script>
-</body>
-</html>
