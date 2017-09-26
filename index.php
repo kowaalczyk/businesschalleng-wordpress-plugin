@@ -2,7 +2,7 @@
 /**
  * The main template file
  *
- * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic navbar with 404)
+ * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic empty page.
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
