@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Winners Page
+ *
  * Template for winners page
  *
  * Should not be used for other pages.

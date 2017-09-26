@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Organization Page
+ *
  * Organization page template file
  *
  * Should not be used for other pages

@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Partners Page
+ *
  * Template for partners page
  *
  * Should not be used for other pages

@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Current Edition Page (news & info)
+ *
  * Template for home page
  *
  * Displays HSBC Home Page

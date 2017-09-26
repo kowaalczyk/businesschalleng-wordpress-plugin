@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Contact Page
+ *
  * Conatct page template
  *
  * Should not be used in other pages.

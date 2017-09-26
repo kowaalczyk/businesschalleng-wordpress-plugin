@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Cases Page
  * Cases page template file
  *
  * Template for cases page, should not be used for any other pages.
