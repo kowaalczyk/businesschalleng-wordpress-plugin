@@ -1,3 +1,19 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link http://linkedin.com/in/kowaalczyk
+ *
+ * @package HSBC_Theme
+ * @subpackage Main_Theme
+ * @since 0.1
+ * @version 0.1
+ */
+
+?>
+
 <footer class="page-footer">
     <div class="container">
         <div class="row">
@@ -66,5 +82,7 @@
         return false;
     });
 </script>
+
+<?php wp_footer(); ?>
 </body>
 </html>

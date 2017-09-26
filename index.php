@@ -1,3 +1,19 @@
+<?php
+/**
+ * The main template file
+ *
+ * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic navbar with 404)
+ *
+ * @link http://linkedin.com/in/kowaalczyk
+ *
+ * @package HSBC_Theme
+ * @subpackage Main_Theme
+ * @since 0.1
+ * @version 0.1
+ */
+
+get_header(); ?>
+
 <!-- NAVIGATION -->
     <!-- HEADER NAV -->
     <ul id="edition-dropdown" class="dropdown-content black-text">
@@ -178,3 +194,5 @@
         </div>
     </div>
 </div>
+
+<?php get_footer();
