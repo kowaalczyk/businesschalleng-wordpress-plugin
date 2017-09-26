@@ -28,7 +28,7 @@ get_header(); ?>
                 <div class="col m2 l1 center-align hsbc-logo-container">
                     <img class=""
                          src="assets/img/hsbc-logo.png"
-                         alt="High School Business Challenge logo">
+                         alt="">
                     <!--TODO: Logo in SVG-->
                 </div>
                 <div class="col m10 l11">
