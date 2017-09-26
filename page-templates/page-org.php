@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for partners page
+ * Organization page template file
  *
  * Should not be used for other pages
  *
@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="row">
             <div class="col m2 l1 center-align hsbc-logo-container">
                 <img class=""
-                     src="assets/img/hsbc-logo.png"
+                     src="../assets/img/hsbc-logo.png"
                      alt="High School Business Challenge logo">
                 <!--TODO: Logo in SVG-->
             </div>
@@ -46,10 +46,10 @@ get_header(); ?>
                         <li class="hsbc-nav-item">
                             <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>
                         </li>
-                        <li class="active hsbc-nav-item">
+                        <li class="hsbc-nav-item">
                             <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>
                         </li>
-                        <li class="hsbc-nav-item">
+                        <li class="active hsbc-nav-item">
                             <a href="/org" class="grey-text text-darken-4">Organizatorzy</a>
                         </li>
                         <li class="hsbc-nav-item">
@@ -77,8 +77,8 @@ get_header(); ?>
     </li>
     <li><a href="collapsible.html">Zadania i materiały</a></li>
     <li><a href="collapsible.html">Zwycięzcy</a></li>
-    <li class="active"><a href="collapsible.html">Partnerzy</a></li>
-    <li><a href="collapsible.html">Organizatorzy</a></li>
+    <li><a href="collapsible.html">Partnerzy</a></li>
+    <li class="active"><a href="collapsible.html">Organizatorzy</a></li>
     <li><a href="collapsible.html">Kontakt</a></li>
 </ul>
 
@@ -96,13 +96,13 @@ get_header(); ?>
 
     <div class="card" id="partnerzy">
         <div class="card-image">
-            <img src="assets/img/partners-background-temp.jpg" alt="">
+            <img src="../assets/img/partners-background-temp.jpg" alt="">
             <!-- TODO Change image -->
-            <h3 class="card-title hsbc-card-title">Partnerzy bieżącej edycji</h3>
+            <h3 class="card-title hsbc-card-title">Organizatorzy konkursu</h3>
         </div>
         <div class="card-content">
 
-            <!-- TODO PARTNERS POSTS -->
+            <!-- TODO ORGANIZERS POSTS -->
 
         </div>
     </div>

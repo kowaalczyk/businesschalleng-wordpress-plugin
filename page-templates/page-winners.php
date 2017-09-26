@@ -1,8 +1,8 @@
 <?php
 /**
- * Cases page template file
+ * Template for winners page
  *
- * Template for cases page, should not be used for any other pages.
+ * Should not be used for other pages.
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="row">
             <div class="col m2 l1 center-align hsbc-logo-container">
                 <img class=""
-                     src="assets/img/hsbc-logo.png"
+                     src="../assets/img/hsbc-logo.png"
                      alt="High School Business Challenge logo">
                 <!--TODO: Logo in SVG-->
             </div>
@@ -40,10 +40,10 @@ get_header(); ?>
                         <li class="hsbc-nav-item">
                             <a href="#!" class="grey-text text-darken-4 dropdown-button" data-activates="edition-dropdown">Poprzednie edycje</a>
                         </li>
-                        <li class="active hsbc-nav-item">
+                        <li class="hsbc-nav-item">
                             <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>
                         </li>
-                        <li class="hsbc-nav-item">
+                        <li class="active hsbc-nav-item">
                             <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>
                         </li>
                         <li class="hsbc-nav-item">
@@ -75,8 +75,8 @@ get_header(); ?>
            class="grey-text text-darken-4 dropdown-button"
            data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>
     </li>
-    <li class="active"><a href="collapsible.html">Zadania i materiały</a></li>
-    <li><a href="collapsible.html">Zwycięzcy</a></li>
+    <li><a href="collapsible.html">Zadania i materiały</a></li>
+    <li class="active"><a href="collapsible.html">Zwycięzcy</a></li>
     <li><a href="collapsible.html">Partnerzy</a></li>
     <li><a href="collapsible.html">Organizatorzy</a></li>
     <li><a href="collapsible.html">Kontakt</a></li>
@@ -93,27 +93,16 @@ get_header(); ?>
 
 <!-- CONTENT -->
 <div class="container hsbc-container">
-    <div class="card" id="zadania">
+
+    <div class="card" id="zwyciezcy">
         <div class="card-image">
-            <img src="assets/img/case-background.jpg" alt="">
-            <h3 class="card-title hsbc-card-title">Zadania z poprzednich lat</h3>
+            <img src="../assets/img/winners-background-temp.jpg" alt="">
+            <!-- TODO Change image -->
+            <h3 class="card-title hsbc-card-title">Zwycięzcy poprzednich edycji</h3>
         </div>
         <div class="card-content">
 
-            <!-- TODO CASE POSTS -->
-
-        </div>
-    </div>
-
-    <div class="card" id="zrodla-wiedzy">
-        <div class="card-content yellow darken-2">
-            <h3 class="card-title white-text hsbc-card-title">
-                Źródła wiedzy
-            </h3>
-        </div>
-        <div class="card-content">
-
-            <!-- TODO KNOWLEDGE POSTS -->
+            <!-- TODO WINNERS POSTS -->
 
         </div>
     </div>

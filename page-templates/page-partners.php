@@ -1,8 +1,8 @@
 <?php
 /**
- * Template for winners page
+ * Template for partners page
  *
- * Should not be used for other pages.
+ * Should not be used for other pages
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="row">
             <div class="col m2 l1 center-align hsbc-logo-container">
                 <img class=""
-                     src="assets/img/hsbc-logo.png"
+                     src="../assets/img/hsbc-logo.png"
                      alt="High School Business Challenge logo">
                 <!--TODO: Logo in SVG-->
             </div>
@@ -43,10 +43,10 @@ get_header(); ?>
                         <li class="hsbc-nav-item">
                             <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>
                         </li>
-                        <li class="active hsbc-nav-item">
+                        <li class="hsbc-nav-item">
                             <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>
                         </li>
-                        <li class="hsbc-nav-item">
+                        <li class="active hsbc-nav-item">
                             <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>
                         </li>
                         <li class="hsbc-nav-item">
@@ -76,8 +76,8 @@ get_header(); ?>
            data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>
     </li>
     <li><a href="collapsible.html">Zadania i materiały</a></li>
-    <li class="active"><a href="collapsible.html">Zwycięzcy</a></li>
-    <li><a href="collapsible.html">Partnerzy</a></li>
+    <li><a href="collapsible.html">Zwycięzcy</a></li>
+    <li class="active"><a href="collapsible.html">Partnerzy</a></li>
     <li><a href="collapsible.html">Organizatorzy</a></li>
     <li><a href="collapsible.html">Kontakt</a></li>
 </ul>
@@ -94,15 +94,15 @@ get_header(); ?>
 <!-- CONTENT -->
 <div class="container hsbc-container">
 
-    <div class="card" id="zwyciezcy">
+    <div class="card" id="partnerzy">
         <div class="card-image">
-            <img src="assets/img/winners-background-temp.jpg" alt="">
+            <img src="../assets/img/partners-background-temp.jpg" alt="">
             <!-- TODO Change image -->
-            <h3 class="card-title hsbc-card-title">Zwycięzcy poprzednich edycji</h3>
+            <h3 class="card-title hsbc-card-title">Partnerzy bieżącej edycji</h3>
         </div>
         <div class="card-content">
 
-            <!-- TODO WINNERS POSTS -->
+            <!-- TODO PARTNERS POSTS -->
 
         </div>
     </div>
