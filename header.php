@@ -23,13 +23,6 @@
 
     <meta charset="UTF-8">
 
-    <!-- Material Design Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Materialized CSS -->
-    <link rel="stylesheet" href="assets/css/materialize.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/hsbc.css">
-
     <?php wp_head(); ?>
 </head>
 

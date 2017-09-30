@@ -98,7 +98,7 @@ get_header(); ?>
         <!-- JUMBO WITH LINKS -->
         <div class="hide-on-small-only hsbc-jumbo-container">
             <div class="parallax-container hsbc-jumbo">
-                <div class="parallax"><img src="../assets/img/warsaw.jpg" alt="High School Business Challenge"></div>
+                <div class="parallax"><img src="../assets/img/warsaw.jpg" alt=""></div>
             </div>
             <div class="hsbc-jumbo-content">
                 <!-- jumbo heading -->

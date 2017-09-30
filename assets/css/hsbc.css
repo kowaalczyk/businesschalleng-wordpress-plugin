@@ -44,7 +44,7 @@
 #hsbc-big-navbar.navbar-fixed,
 #hsbc-big-navbar>nav,
 #hsbc-big-navbar .hsbc-nav-container,
-#hsbc-big-navbar .hsbc-nav-container row {
+#hsbc-big-navbar .hsbc-nav-container .row {
     height: 88px;
 }
 
