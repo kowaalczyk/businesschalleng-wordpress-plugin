@@ -103,6 +103,7 @@
 
 .hsbc-jumbo-content a {
     display: block;
+    text-transform: uppercase;
 }
 
 @media (max-width: 824px) {
