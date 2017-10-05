@@ -1,10 +1,8 @@
 <?php
 /**
- * Template Name: Current Edition Page (news & info)
+ * The main template file
  *
- * Template for home page
- *
- * Displays HSBC Home Page
+ * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic empty page.
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
@@ -28,8 +26,8 @@ get_header(); ?>
         <nav class="nav-extended white hsbc-nav-container">
             <div class="row">
                 <div class="col m2 l1 center-align hsbc-logo-container">
-                    <img width="88" height="88"
-                         src="../assets/img/hsbc-logo.png"
+                    <img class=""
+                         src="assets/img/hsbc-logo.png"
                          alt="">
                     <!--TODO: Logo in SVG-->
                 </div>
@@ -98,7 +96,7 @@ get_header(); ?>
         <!-- JUMBO WITH LINKS -->
         <div class="hide-on-small-only hsbc-jumbo-container">
             <div class="parallax-container hsbc-jumbo">
-                <div class="parallax"><img src="../assets/img/warsaw.jpg" alt=""></div>
+                <div class="parallax"><img src="<?php the_field('jumbo_image') ?>" alt=""></div>
             </div>
             <div class="hsbc-jumbo-content">
                 <!-- jumbo heading -->
@@ -118,25 +116,25 @@ get_header(); ?>
                     <div class="col m3 l3">
                         <a class="hsbc-scroll card-panel hoverable center-align yellow black-text"
                            href="#aktualnosci">
-                            AKTUALNOŚCI
+                            <?php the_field('first_section_title') ?>
                         </a>
                     </div>
                     <div class="col m3 l3">
                         <a class="hsbc-scroll card-panel hoverable center-align red black-text"
                            href="#o-konkursie">
-                            O KONKURSIE
+                            <?php the_field('second_section_title') ?>
                         </a>
                     </div>
                     <div class="col m3 l3">
                         <a class="hsbc-scroll card-panel hoverable center-align blue black-text"
                            href="#harmonogram">
-                            HARMONOGRAM
+                            <?php the_field('third_section_title') ?>
                         </a>
                     </div>
                     <div class="col m3 l3">
                         <a class="hsbc-scroll card-panel hoverable center-align green black-text"
                            href="#faq">
-                            FAQ I REGULAMIN
+                            <?php the_field('fourth_section_title') ?>
                         </a>
                     </div>
                 </div>
@@ -155,18 +153,41 @@ get_header(); ?>
         <div class="card" id="aktualnosci">
             <div class="card-content yellow darken-2">
                 <h3 class="card-title white-text hsbc-card-title">
-                    Aktualności
+                    <?php the_field('first_section_title') ?>
                 </h3>
             </div>
             <div class="card-content">
-                <!-- TODO NEWS POSTS -->
+                <?php
+                $news_posts = get_field('first_section_posts');
+                if($news_posts):
+                    foreach ($news_posts as $p):
+                        $categories = get_the_category($p->ID);
+                        $cat_names = array_column($categories, 'name');
+                        if (in_array('HSBC Posts', $cat_names)):
+                            ?>
+                            <h3>
+                                <?php echo $p->post_title ?>
+                            </h3>
+                            <?php
+                        endif;
+
+                        foreach ($categories as $cat):
+                            ?>
+                            <p>
+                                <?php echo $cat->name; ?>
+                            </p>
+                            <?php
+                        endforeach;
+                    endforeach;
+                endif;
+                ?>
             </div>
         </div>
 
         <div class="card" id="o-konkursie">
             <div class="card-content red darken-2">
                 <h3 class="card-title white-text hsbc-card-title">
-                    O konkursie
+                    <?php the_field('second_section_title') ?>
                 </h3>
             </div>
             <div class="card-content">
@@ -177,7 +198,7 @@ get_header(); ?>
         <div class="card" id="harmonogram">
             <div class="card-content blue darken-2">
                 <h3 class="card-title white-text hsbc-card-title">
-                    Harmonogram
+                    <?php the_field('third_section_title') ?>
                 </h3>
             </div>
             <div class="card-content">
@@ -188,7 +209,7 @@ get_header(); ?>
         <div class="card" id="faq">
             <div class="card-content green darken-2">
                 <h3 class="card-title white-text hsbc-card-title">
-                    FAQ
+                    <?php the_field('fourth_section_title') ?>
                 </h3>
             </div>
             <div class="card-content">
