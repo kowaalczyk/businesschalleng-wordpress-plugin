@@ -21,12 +21,12 @@ function hsbc_category_names($p) {
 
 function hsbc_is_post($p) {
     $cat_names = hsbc_category_names($p);
-    return in_array('HSBC Posts', $cat_names)
+    return in_array('HSBC Posts', $cat_names);
 }
 
 function hsbc_is_component($c) {
     $cat_names = hsbc_category_names($c);
-    return in_array('HSBC Components', $cat_names)
+    return in_array('HSBC Components', $cat_names);
 }
 
 function hsbc_render_post($p) {

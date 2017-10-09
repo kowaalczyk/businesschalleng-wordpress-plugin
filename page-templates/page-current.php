@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Current Page
  * The main template file
  *
  * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic empty page.
@@ -161,23 +162,7 @@ get_header(); ?>
                 $news_posts = get_field('first_section_posts');
                 if($news_posts):
                     foreach ($news_posts as $p):
-                        $categories = get_the_category($p->ID);
-                        $cat_names = array_column($categories, 'name');
-                        if (in_array('HSBC Posts', $cat_names)):
-                            ?>
-                            <h3>
-                                <?php echo $p->post_title ?>
-                            </h3>
-                            <?php
-                        endif;
-
-                        foreach ($categories as $cat):
-                            ?>
-                            <p>
-                                <?php echo $cat->name; ?>
-                            </p>
-                            <?php
-                        endforeach;
+                        echo hsbc_render_post($p);
                     endforeach;
                 endif;
                 ?>
