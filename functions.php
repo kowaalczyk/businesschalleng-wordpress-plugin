@@ -57,22 +57,14 @@ function hsbc_render_post($p) {
     endif;
 }
 
-function hsbc_render_component($c) {
-    $cat_names = hsbc_category_names($c);
+function hsbc_get_btn_link_url($btn) {
+    $id = $btn->ID;
 
-    if(in_array('HSBC Button Components', $cat_names)):
-        return get_template_part('hsbc_component', 'button');
-    endif;
-
-    if(in_array('HSBC Text Components', $cat_names)):
-        return get_template_part('hsbc_component', 'text');
-    endif;
-
-    if(in_array('HSBC Team Member Components', $cat_names)):
-        return get_template_part('hsbc_component', 'team_member');
-    endif;
-
-    if(in_array('HSBC Team Components', $cat_names)):
-        return get_template_part('hsbc_component', 'team');
-    endif;
+    if(get_the_field('link_to_file', $id)) {
+        return get_the_field('file_url', $id);
+    } elseif(get_the_field('link_to_page', $id)) {
+        return get_the_field('page_url', $id);
+    } else {
+        return get_the_field('link_url', $id);
+    }
 }
