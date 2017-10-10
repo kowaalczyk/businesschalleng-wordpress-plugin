@@ -47,14 +47,16 @@ function hsbc_get_btn_link_url($pid) {
 function hsbc_partial_title_and_text($pid) {
     $title = get_the_title($pid);
     $post_text = get_field('post_text', $pid);
-    $render_text = $post_text ? $post_text : '';
+    if(!$post_text) {
+        $post_text = '';
+    }
 
     return <<<EOT
     <h4>
         $title
     </h4>
     <p class="flow-text">
-        $render_text
+        $post_text
     </p>
 EOT;
 }
@@ -163,8 +165,33 @@ function hsbc_post_team($pid) {
 }
 
 function hsbc_post_partner($pid) {
-    //TODO
-    return '';
+    $partner_name = get_the_title($pid);
+    $partner_logo = get_field('partner_logo', $pid);
+    $partner_description = get_field('partner_description', $pid);
+    if(!$partner_description) {
+        $partner_description = '';
+    }
+    //TODO: Partner type, link to partner website
+
+    return <<<EOT
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m6 l5">
+                <img class="responsive-img"
+                     src="$partner_logo"
+                     alt="">
+            </div>
+            <div class="col s12 m6 l7">
+                <h5>
+                    $partner_name
+                </h5>
+                <p class="flow-text">
+                    $partner_description
+                </p>
+            </div>
+        </div>    
+    </div>
+EOT;
 }
 
 // HSBC RENDERING FUNCTIONS
