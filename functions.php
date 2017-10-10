@@ -47,13 +47,14 @@ function hsbc_get_btn_link_url($pid) {
 function hsbc_partial_title_and_text($pid) {
     $title = get_the_title($pid);
     $post_text = get_field('post_text', $pid);
+    $render_text = $post_text ? $post_text : '';
 
     return <<<EOT
     <h4>
         $title
     </h4>
     <p class="flow-text">
-        $post_text
+        $render_text
     </p>
 EOT;
 }
@@ -139,7 +140,7 @@ function hsbc_post_list($pid) {
 
 function hsbc_post_external_media($pid) {
     $title_and_text_partial = hsbc_partial_title_and_text($pid);
-    $external_media_content = get_field('hsbc_media_content', $pid);
+    $external_media_content = get_field('external_media_content', $pid);
 
     return <<<EOT
     <div class="section">
