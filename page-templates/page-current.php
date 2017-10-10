@@ -162,7 +162,7 @@ get_header(); ?>
                 $news_posts = get_field('first_section_posts');
                 if($news_posts):
                     foreach ($news_posts as $p):
-                        echo hsbc_post_standard($p->ID);
+                        echo hsbc_post($p->ID);
                     endforeach;
                 endif;
                 ?>

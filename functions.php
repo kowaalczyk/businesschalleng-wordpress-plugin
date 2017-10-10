@@ -16,8 +16,8 @@ add_action( 'wp_enqueue_scripts', 'hsbc_theme_scripts' );
 
 // HELPER FUNCTIONS
 
-function hsbc_category_names($p) {
-    $categories = get_the_category($p->ID);
+function hsbc_category_names($pid) {
+    $categories = get_the_category($pid);
     return array_column($categories, 'name');
 }
 
@@ -124,33 +124,58 @@ function hsbc_post_standard($pid) {
 EOT;
 }
 
+function hsbc_post_list($pid) {
+    //TODO
+    return '';
+}
+
+function hsbc_post_external_media($pid) {
+    //TODO
+    return '';
+}
+
+function hsbc_post_calendar($pid) {
+    //TODO
+    return '';
+}
+
+function hsbc_post_team($pid) {
+    //TODO
+    return '';
+}
+
+function hsbc_post_partner($pid) {
+    //TODO
+    return '';
+}
 
 // HSBC RENDERING FUNCTIONS
 
-function hsbc_render_post($p) {
-    $cat_names = hsbc_category_names($p);
+function hsbc_post($pid) {
+    $cat_names = hsbc_category_names($pid);
+    //TODO: Consider sending to function based on post category slug (like in rails)
 
     if(in_array('HSBC Standard Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'standard');
+        return hsbc_post_standard($pid);
     endif;
 
     if(in_array('HSBC List Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'list');
+        return hsbc_post_list($pid);
     endif;
 
     if(in_array('HSBC External Media Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'external_media');
+        return hsbc_post_external_media($pid);
     endif;
 
     if(in_array('HSBC Calendar Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'calendar');
+        return hsbc_post_calendar($pid);
     endif;
 
     if(in_array('HSBC Team Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'team');
+        return hsbc_post_team($pid);
     endif;
 
     if(in_array('HSBC Partner Posts', $cat_names)):
-        return get_template_part('hsbc_post', 'partner');
+        return hsbc_post_partner($pid);
     endif;
 }
