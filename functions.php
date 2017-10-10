@@ -44,6 +44,20 @@ function hsbc_get_btn_link_url($pid) {
 }
 
 // HSBC POST PARTIALS
+function hsbc_partial_title_and_text($pid) {
+    $title = get_the_title($pid);
+    $post_text = get_field('post_text', $pid);
+
+    return <<<EOT
+    <h4>
+        $title
+    </h4>
+    <p class="flow-text">
+        $post_text
+    </p>
+EOT;
+}
+
 function hsbc_partial_side_image_row($pid) {
     $side_image_text = get_field('side_image_text', $pid);
     $image = get_field('image', $pid);
@@ -74,7 +88,7 @@ function hsbc_partial_normal_button($pid) {
     return <<<EOT
     <a class="waves-effect waves-light btn hsbc-btn blue"
                href="$btn_link">
-       $btn_text
+        $btn_text
     </a>
 
 EOT;
@@ -90,7 +104,7 @@ function hsbc_partial_normal_buttons($pid) {
     return <<<EOT
     <div class="row">
         <div class="col s12 center-align">
-            $btn_renders
+        $btn_renders
         </div>
     </div>
 
@@ -101,8 +115,7 @@ EOT;
 // HSBC POST TEMPLATES
 
 function hsbc_post_standard($pid) {
-    $title = get_the_title($pid);
-    $post_text = get_field('post_text', $pid);
+    $title_and_text_partial = hsbc_partial_title_and_text($pid);
 
     $add_side_image = get_field('add_side_image', $pid);
     $image_row_partial = ($add_side_image ? hsbc_partial_side_image_row($pid) : '');
@@ -112,15 +125,10 @@ function hsbc_post_standard($pid) {
 
     return <<<EOT
     <div class="section">
-        <h4>
-            $title
-        </h4>
-        <p class="flow-text">
-            $post_text
-        </p>
-    </div>
+    $title_and_text_partial
     $image_row_partial
     $btn_row_partial
+    </div>
 EOT;
 }
 
@@ -130,8 +138,17 @@ function hsbc_post_list($pid) {
 }
 
 function hsbc_post_external_media($pid) {
-    //TODO
-    return '';
+    $title_and_text_partial = hsbc_partial_title_and_text($pid);
+    $external_media_content = get_field('hsbc_media_content', $pid);
+
+    return <<<EOT
+    <div class="section">
+    $title_and_text_partial
+        <div class="video-container">
+            $external_media_content
+        </div>
+    </div>
+EOT;
 }
 
 function hsbc_post_calendar($pid) {
