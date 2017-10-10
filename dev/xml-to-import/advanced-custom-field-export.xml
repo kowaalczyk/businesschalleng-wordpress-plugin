@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-04 15:04" -->
+<!-- generator="WordPress/4.8.2" created="2017-10-09 19:07" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>High School Business Challenge Dev</title>
 	<link>http://localhost</link>
 	<description>High School Business Challenge</description>
-	<pubDate>Wed, 04 Oct 2017 15:04:17 +0000</pubDate>
+	<pubDate>Mon, 09 Oct 2017 19:07:46 +0000</pubDate>
 	<language></language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://localhost</wp:base_site_url>
@@ -150,6 +150,10 @@
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-current.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Standard Post</title>
@@ -186,7 +190,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cfaffc827bd</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59cfaffc827bd";s:5:"label";s:18:"Add flashy button?";s:4:"name";s:17:"add_flashy_button";s:4:"type";s:10:"true_false";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59cfaffc827bd";s:5:"label";s:18:"Add flashy button?";s:4:"name";s:17:"add_flashy_button";s:4:"type";s:10:"true_false";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:7;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -202,23 +206,31 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0da7ccd64e</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0da7ccd64e";s:5:"label";s:20:"Add more paragraphs?";s:4:"name";s:19:"add_more_paragraphs";s:4:"type";s:10:"true_false";s:12:"instructions";s:54:"Select if You want to add more paragraphs to the post.";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0da7ccd64e";s:5:"label";s:20:"Add more paragraphs?";s:4:"name";s:19:"add_more_paragraphs";s:4:"type";s:10:"true_false";s:12:"instructions";s:54:"Select if You want to add more paragraphs to the post.";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0dadfcd64f</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0dadfcd64f";s:5:"label";s:15:"More paragraphs";s:4:"name";s:15:"more_paragraphs";s:4:"type";s:12:"relationship";s:12:"instructions";s:119:"Select HSBC Text Components that will be added below the main post text. Their titles will be displayed as subheadings.";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:3";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0da7ccd64e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0dadfcd64f";s:5:"label";s:15:"More paragraphs";s:4:"name";s:15:"more_paragraphs";s:4:"type";s:12:"relationship";s:12:"instructions";s:119:"Select HSBC Text Components that will be added below the main post text. Their titles will be displayed as subheadings.";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:3";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0da7ccd64e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9a6cd64b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d0d9a6cd64b";s:5:"label";s:13:"Flashy button";s:4:"name";s:13:"flashy_button";s:4:"type";s:11:"post_object";s:12:"instructions";s:71:"Select HSBC Button Component that will be displayed as a flashy button.";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaffc827bd";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d0d9a6cd64b";s:5:"label";s:13:"Flashy button";s:4:"name";s:13:"flashy_button";s:4:"type";s:11:"post_object";s:12:"instructions";s:71:"Select HSBC Button Component that will be displayed as a flashy button.";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaffc827bd";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9cfcd64c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0d9cfcd64c";s:5:"label";s:19:"Add normal buttons?";s:4:"name";s:18:"add_normal_buttons";s:4:"type";s:10:"true_false";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:7;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0d9cfcd64c";s:5:"label";s:19:"Add normal buttons?";s:4:"name";s:18:"add_normal_buttons";s:4:"type";s:10:"true_false";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:9;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9fecd64d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0d9fecd64d";s:5:"label";s:14:"Normal buttons";s:4:"name";s:14:"normal_buttons";s:4:"type";s:12:"relationship";s:12:"instructions";s:70:"Select HSBC Button Components that will be displayed as normal buttons";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0d9cfcd64c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0d9fecd64d";s:5:"label";s:14:"Normal buttons";s:4:"name";s:14:"normal_buttons";s:4:"type";s:12:"relationship";s:12:"instructions";s:70:"Select HSBC Button Components that will be displayed as normal buttons";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0d9cfcd64c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:10;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59dbad3824cde</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59dbad3824cde";s:5:"label";s:18:"Side image caption";s:4:"name";s:18:"side_image_caption";s:4:"type";s:4:"text";s:12:"instructions";s:46:"A caption displayed when the image is clicked.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59dbad6924cdf</wp:meta_key>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59dbad6924cdf";s:5:"label";s:15:"Side image text";s:4:"name";s:15:"side_image_text";s:4:"type";s:8:"textarea";s:12:"instructions";s:64:"Text that will be displayed alongside the image. Auto-formatted.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
@@ -472,35 +484,23 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11f520aa5c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11f520aa5c";s:5:"label";s:9:"Team name";s:4:"name";s:9:"team_name";s:4:"type";s:4:"text";s:12:"instructions";s:33:"Name of the team, auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11f520aa5c";s:5:"label";s:9:"Team name";s:4:"name";s:9:"team_name";s:4:"type";s:4:"text";s:12:"instructions";s:33:"Name of the team, auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11f6b0aa5d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11f6b0aa5d";s:5:"label";s:11:"Team mentor";s:4:"name";s:11:"team_mentor";s:4:"type";s:4:"text";s:12:"instructions";s:41:"Teacher or whever the fuck they typed in.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11f6b0aa5d";s:5:"label";s:11:"Team mentor";s:4:"name";s:11:"team_mentor";s:4:"type";s:4:"text";s:12:"instructions";s:41:"Teacher or whever the fuck they typed in.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11fae0aa5e</wp:meta_key>
-			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d11fae0aa5e";s:5:"label";s:16:"Team description";s:4:"name";s:16:"team_description";s:4:"type";s:8:"textarea";s:12:"instructions";s:80:"Description of the team, will be auto-formatted. Displayed only for top 3 teams.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d11fae0aa5e";s:5:"label";s:16:"Team description";s:4:"name";s:16:"team_description";s:4:"type";s:8:"textarea";s:12:"instructions";s:80:"Description of the team, will be auto-formatted. Displayed only for top 3 teams.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11fea0aa5f</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d11fea0aa5f";s:5:"label";s:10:"Team photo";s:4:"name";s:10:"team_photo";s:4:"type";s:5:"image";s:12:"instructions";s:50:"Photo of the team, displayed only for top 3 teams.";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d11fea0aa5f";s:5:"label";s:10:"Team photo";s:4:"name";s:10:"team_photo";s:4:"type";s:5:"image";s:12:"instructions";s:50:"Photo of the team, displayed only for top 3 teams.";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d120190aa60</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d120190aa60";s:5:"label";s:12:"Team members";s:4:"name";s:12:"team_members";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Member Components that represent the mambers of the team.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:13";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"6";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"13";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d120190aa60";s:5:"label";s:12:"Team members";s:4:"name";s:12:"team_members";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Member Components that represent the mambers of the team.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:13";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"6";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -513,6 +513,18 @@
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"11";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -931,7 +943,7 @@
 		<wp:post_name>acf_hsbc-page-organizer</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>acf</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:postmeta>
@@ -940,11 +952,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f0d5ec0cf</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f0d5ec0cf";s:5:"label";s:15:"Organizer posts";s:4:"name";s:15:"organizer_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:61:"Select posts representing organizers (use HSBC Partner Posts)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"3";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f0d5ec0cf";s:5:"label";s:15:"Organizer posts";s:4:"name";s:15:"organizer_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:61:"Select posts representing organizers (use HSBC Partner Posts)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"3";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -957,6 +965,14 @@
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:27:"page-templates/page-org.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -973,7 +989,7 @@
 		<wp:post_name>acf_hsbc-page-partners</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>acf</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:postmeta>
@@ -982,19 +998,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f1d4b8c7c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f1d4b8c7c";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f1d4b8c7c";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f1edb8c7d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f1edb8c7d";s:5:"label";s:14:"Partners posts";s:4:"name";s:14:"partners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:67:"Select HSBC Partner Posts representing partners of current edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/page-partners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f1edb8c7d";s:5:"label";s:14:"Partners posts";s:4:"name";s:14:"partners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:67:"Select HSBC Partner Posts representing partners of current edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1007,6 +1015,14 @@
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/page-partners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1023,7 +1039,7 @@
 		<wp:post_name>acf_hsbc-page-cases</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>acf</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:postmeta>
@@ -1032,35 +1048,31 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f3e45ae28</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f3e45ae28";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f3e45ae28";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f3fb5ae29</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f3fb5ae29";s:5:"label";s:19:"First section title";s:4:"name";s:19:"first_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:7:"Zadania";s:11:"placeholder";s:7:"Zadania";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f3fb5ae29";s:5:"label";s:19:"First section title";s:4:"name";s:19:"first_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:7:"Zadania";s:11:"placeholder";s:7:"Zadania";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4125ae2a</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4125ae2a";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:53:"Select posts with that have links to questions/cases.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4125ae2a";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:53:"Select posts with that have links to questions/cases.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4755ae2b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4755ae2b";s:5:"label";s:20:"Second section title";s:4:"name";s:20:"second_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:24:"Zagadnienia merytoryczne";s:11:"placeholder";s:24:"Zagadnienia merytoryczne";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4755ae2b";s:5:"label";s:20:"Second section title";s:4:"name";s:20:"second_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:24:"Zagadnienia merytoryczne";s:11:"placeholder";s:24:"Zagadnienia merytoryczne";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4bb5ae2c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f4bb5ae2c";s:5:"label";s:19:"Second section post";s:4:"name";s:19:"second_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f4bb5ae2c";s:5:"label";s:19:"Second section post";s:4:"name";s:19:"second_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4f05ae2d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4f05ae2d";s:5:"label";s:19:"Third section title";s:4:"name";s:19:"third_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:16:"Źródła wiedzy";s:11:"placeholder";s:16:"Źródła wiedzy";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4f05ae2d";s:5:"label";s:19:"Third section title";s:4:"name";s:19:"third_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:16:"Źródła wiedzy";s:11:"placeholder";s:16:"Źródła wiedzy";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f5105ae2e</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f5105ae2e";s:5:"label";s:18:"Third section post";s:4:"name";s:18:"third_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard Post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f5105ae2e";s:5:"label";s:18:"Third section post";s:4:"name";s:18:"third_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard Post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1073,6 +1085,14 @@
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:29:"page-templates/page-cases.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1089,7 +1109,7 @@
 		<wp:post_name>acf_hsbc-page-winners</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>acf</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:postmeta>
@@ -1098,15 +1118,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f5cf2cd6a</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f5cf2cd6a";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d4f5cf2cd6a";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f5e62cd6b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f5e62cd6b";s:5:"label";s:13:"Winners posts";s:4:"name";s:13:"winners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Posts that contain (one winning team in each one of them)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f5e62cd6b";s:5:"label";s:13:"Winners posts";s:4:"name";s:13:"winners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Posts that contain (one winning team in each one of them)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1119,6 +1135,14 @@
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-winners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
