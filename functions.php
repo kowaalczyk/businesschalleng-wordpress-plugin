@@ -105,7 +105,7 @@ EOT;
 
 function hsbc_team_two_template($pid) {
     $team_title = get_field('team_name', $pid);
-    $team_description = get_field('team_desciption', $pid);
+    $team_description = get_field('team_description', $pid);
     $team_photo = get_field('team_photo', $pid);
     $team_members = hsbc_get_team_members($pid, 'hsbc_secondary_formatter');
     $team_members_joined = join(' ', $team_members);
@@ -255,7 +255,7 @@ function hsbc_partial_team_one($teams) {
     $pid = $teams[0]->ID;
 
     $team_title = get_field('team_name', $pid);
-    $team_description = get_field('team_desciption', $pid);
+    $team_description = get_field('team_description', $pid);
     $team_photo = get_field('team_photo', $pid);
     $team_members = hsbc_get_team_members($pid, 'hsbc_winning_formatter');
     $team_members_joined = join(' ', $team_members);
