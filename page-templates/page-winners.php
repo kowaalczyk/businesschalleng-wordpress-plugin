@@ -103,9 +103,14 @@ get_header(); ?>
             <h3 class="card-title hsbc-card-title">Zwycięzcy poprzednich edycji</h3>
         </div>
         <div class="card-content">
-
-            <!-- TODO WINNERS POSTS -->
-
+            <?php
+            $winners_posts = get_field('winners_posts');
+            if($winners_posts):
+                foreach ($winners_posts as $p):
+                    echo hsbc_post($p->ID);
+                endforeach;
+            endif;
+            ?>
         </div>
     </div>
 </div>
