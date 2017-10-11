@@ -53,6 +53,100 @@ function hsbc_team_member_names($pid) {
     return $names;
 }
 
+function hsbc_get_team_members($pid, $member_formatter) {
+    $team_members = get_field('team_members', $pid);
+    $team_member_ids = array_column($team_members, 'ID');
+    $team_member_templates = array_map($member_formatter, $team_member_ids);
+    return $team_member_templates;
+}
+
+function hsbc_winning_formatter($pid) {
+    $name = get_field('full_name', $pid);
+    $about = get_field('about_the_member', $pid);
+    if(!$about) {
+        $about = '';
+    }
+
+    return <<<EOT
+    <li class="collection-item">
+        <span class="title hsbc-li-title">
+            $name
+        </span>
+        <p>
+            $about
+        </p>
+    </li>
+EOT;
+}
+
+function hsbc_secondary_formatter($pid) {
+    $name = get_field('full_name', $pid);
+
+    return <<<EOT
+    <li class="collection-item center-align">
+        <span class="title">
+            $name
+        </span>
+    </li>
+EOT;
+}
+
+function hsbc_minor_formatter($pid) {
+    $name = get_field('full_name', $pid);
+
+    return <<<EOT
+    <li class="collection-item center-align">
+        <p>
+            $name
+        </p>
+    </li>
+EOT;
+}
+
+function hsbc_team_two_template($pid) {
+    $team_title = get_field('team_name', $pid);
+    $team_description = get_field('team_desciption', $pid);
+    $team_photo = get_field('team_photo', $pid);
+    $team_members = hsbc_get_team_members($pid, 'hsbc_secondary_formatter');
+    $team_members_joined = join(' ', $team_members);
+    $team_place = ''; //TODO: Add this attr to custom fields or find another way to show it
+
+    return <<<EOT
+    <div class="col s12 m6 l6">
+        <h5>
+            $team_title 
+            <span class="grey-text hsbc-right-subtitle">$team_place</span>
+        </h5>
+        <p>
+            $team_description
+        </p>
+        <img class="responsive-img" src="$team_photo" alt="Card post image">
+        <ul class="collection">
+            $team_members_joined
+        </ul>
+    </div>
+EOT;
+}
+
+function hsbc_team_many_template($pid) {
+    $team_title = get_field('team_name', $pid);
+    $team_members = hsbc_get_team_members($pid, 'hsbc_minor_formatter');
+    $team_members_joined = join(' ', $team_members);
+
+    return <<<EOT
+    <div class="col s12 m6 l4">
+        <ul class="collection with-header">
+            <li class="collection-header hsbc-li-finalist-title center-align">
+                <h5>
+                    $team_title
+                </h5>
+            </li>
+            $team_members_joined
+        </ul>
+    </div>
+EOT;
+}
+
 // HSBC POST PARTIALS
 function hsbc_partial_title_and_text($pid) {
     $title = get_the_title($pid);
@@ -157,6 +251,67 @@ function hsbc_partial_team_list($pid) {
 EOT;
 }
 
+function hsbc_partial_team_one($teams) {
+    $pid = $teams[0]->ID;
+
+    $team_title = get_field('team_name', $pid);
+    $team_description = get_field('team_desciption', $pid);
+    $team_photo = get_field('team_photo', $pid);
+    $team_members = hsbc_get_team_members($pid, 'hsbc_winning_formatter');
+    $team_members_joined = join(' ', $team_members);
+
+    return <<<EOT
+    <h4>
+        $team_title
+        <span class="grey-text hsbc-right-subtitle"> - I miejsce</span>
+    </h4>
+    <p class="flow-text">
+        $team_description
+    </p>
+    <div class="row">
+        <div class="col s12 m12 l6">
+            <img class="responsive-img" src="$team_photo" alt="">
+        </div>
+        <div class="col s12 m12 l6">
+            <ul class="collection">
+                $team_members_joined
+            </ul>
+        </div>
+    </div>
+EOT;
+
+}
+
+function hsbc_partial_team_two($teams) {
+    $team_ids = array_column($teams, 'ID');
+    $team_templates = array_map('hsbc_team_two_template', $team_ids);
+    $team_templates_joined = join(' ', $team_templates);
+
+    return <<<EOT
+    <div class="row">
+    $team_templates_joined
+    </div>
+EOT;
+}
+
+
+function hsbc_partial_team_many($pid) {
+    $title = get_the_title($pid);
+
+    $team_ids = array_column($teams, 'ID');
+    $team_templates = array_map('hsbc_team_many_template', $team_ids);
+    $team_templates_joined = join(' ', $team_templates);
+
+    return <<<EOT
+    <h5>
+        $title    
+    </h5>
+    <div class="row">
+    $team_templates_joined
+    </div>
+EOT;
+}
+
 // HSBC POST TEMPLATES
 
 function hsbc_post_standard($pid) {
@@ -214,13 +369,29 @@ EOT;
 }
 
 function hsbc_post_calendar($pid) {
-    //TODO
+    //TODO: Refactor the post to contain just a 4 dates (and 1 single post on a main page)
     return '';
 }
 
 function hsbc_post_team($pid) {
-    //TODO
-    return '';
+    $team_components = get_field('teams', $pid);
+    switch (sizeof($team_components)) {
+        case 1:
+            $team_partial = hsbc_partial_team_one($team_components);
+            break;
+        case 2:
+            $team_partial = hsbc_partial_team_two($team_components);
+            break;
+        default:
+            $team_partial = hsbc_partial_team_many($team_components);
+            break;
+    }
+
+    return <<<EOT
+    <div class="section">
+    $team_partial
+    </div>
+EOT;
 }
 
 function hsbc_post_partner($pid) {
