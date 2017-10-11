@@ -316,7 +316,7 @@ EOT;
 }
 
 
-function hsbc_partial_team_many($pid) {
+function hsbc_partial_team_many($teams, $pid) {
     $title = get_the_title($pid);
 
     $team_ids = array_column($teams, 'ID');
@@ -342,7 +342,7 @@ function hsbc_post_standard($pid) {
     $image_row_partial = ($add_side_image ? hsbc_partial_side_image_row($pid) : '');
 
     $add_more_paragraphs = get_field('add_more_paragraphs', $pid);
-    $more_paragraphs_partial = ($add_more_paragraphs ? hsbc_partial_paragraphs($pid) : '')
+    $more_paragraphs_partial = ($add_more_paragraphs ? hsbc_partial_paragraphs($pid) : '');
 
     $add_normal_buttons = get_field('add_normal_buttons', $pid);
     $btn_row_partial = ($add_normal_buttons == 1 ? hsbc_partial_normal_buttons($pid) : '');
@@ -408,7 +408,7 @@ function hsbc_post_team($pid) {
             $team_partial = hsbc_partial_team_two($team_components);
             break;
         default:
-            $team_partial = hsbc_partial_team_many($team_components);
+            $team_partial = hsbc_partial_team_many($team_components, $pid);
             break;
     }
 
