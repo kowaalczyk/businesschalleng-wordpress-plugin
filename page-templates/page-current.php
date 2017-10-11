@@ -176,7 +176,14 @@ get_header(); ?>
                 </h3>
             </div>
             <div class="card-content">
-                <!-- TODO ABOUT POSTS -->
+                <?php
+                $about_posts = get_field('second_section_posts');
+                if($about_posts):
+                    foreach ($about_posts as $p):
+                        echo hsbc_post($p->ID);
+                    endforeach;
+                endif;
+                ?>
             </div>
         </div>
 
@@ -187,7 +194,14 @@ get_header(); ?>
                 </h3>
             </div>
             <div class="card-content">
-                <!-- TODO CALENDAR CONTENT -->
+                <?php
+                $calendar_posts = get_field('third_section_posts');
+                if($calendar_posts):
+                    foreach ($calendar_posts as $p):
+                        echo hsbc_post($p->ID);
+                    endforeach;
+                endif;
+                ?>
             </div>
         </div>
 
@@ -198,7 +212,14 @@ get_header(); ?>
                 </h3>
             </div>
             <div class="card-content">
-                <!-- TODO FAQ POSTS -->
+                <?php
+                $faq_posts = get_field('fourth_section_posts');
+                if($faq_posts):
+                    foreach ($faq_posts as $p):
+                        echo hsbc_post($p->ID);
+                    endforeach;
+                endif;
+                ?>
             </div>
         </div>
     </div>
