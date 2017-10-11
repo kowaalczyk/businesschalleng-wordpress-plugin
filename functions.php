@@ -42,10 +42,14 @@ function hsbc_get_btn_link_url($pid) {
     }
 }
 
+function hsbc_get_member_name($pid) {
+    return get_field('full_name', $pid);
+}
+
 function hsbc_team_member_names($pid) {
     $team_members = get_field('team_members', $pid);
     $team_member_ids = array_column($team_members, 'ID');
-    $names = array_map(get_field('full_name'), $team_member_ids);
+    $names = array_map('hsbc_get_member_name', $team_member_ids);
     return $names;
 }
 
