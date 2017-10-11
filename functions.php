@@ -190,7 +190,7 @@ function hsbc_post_partner($pid) {
                 </p>
             </div>
         </div>    
-    </div>
+    </div> 
 EOT;
 }
 
