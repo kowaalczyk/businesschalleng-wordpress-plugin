@@ -32,7 +32,6 @@ function hsbc_is_component($c) {
 }
 
 // HSBC COMPONENT HELPERS
-
 function hsbc_get_btn_link_url($pid) {
     if(get_field('link_to_file', $pid)) {
         return get_field('file_url', $pid);
@@ -41,6 +40,13 @@ function hsbc_get_btn_link_url($pid) {
     } else {
         return get_field('link_url', $pid);
     }
+}
+
+function hsbc_team_member_names($pid) {
+    $team_members = get_field('team_members', $pid);
+    $team_member_ids = array_column($team_members, 'ID');
+    $names = array_map(get_field('full_name'), $team_member_ids);
+    return $names;
 }
 
 // HSBC POST PARTIALS
@@ -95,7 +101,6 @@ function hsbc_partial_normal_button($pid) {
     </a>
 
 EOT;
-
 }
 
 function hsbc_partial_normal_buttons($pid) {
@@ -112,7 +117,40 @@ function hsbc_partial_normal_buttons($pid) {
     </div>
 
 EOT;
+}
 
+function hsbc_partial_team_in_list($pid) {
+    $team_name = get_field('team_name', $pid);
+    $team_mentor = get_field('team_mentor', $pid);
+    if(!$team_mentor) {
+        $team_mentor = '';
+    }
+    $team_member_names = hsbc_team_member_names($pid);
+    $team_members = join(" - ", $team_member_names);
+
+    return <<<EOT
+    <li class="collection-item avatar">
+        <span class="title hsbc-li-title">$team_name</span>
+        <p>
+            $team_members
+            <br>
+            Opiekun: $team_mentor
+        </p>
+    </li>
+EOT;
+}
+
+function hsbc_partial_team_list($pid) {
+    $teams = get_field('teams', $pid);
+    $team_ids = array_column($teams, 'ID');
+    $team_templates = array_map('hsbc_partial_team_in_list', $team_ids);
+    $team_lis = join(" ", $team_templates);
+
+    return <<<EOT
+    <ul class="collection">
+    $team_lis
+    </ul>
+EOT;
 }
 
 // HSBC POST TEMPLATES
@@ -136,8 +174,25 @@ EOT;
 }
 
 function hsbc_post_list($pid) {
-    //TODO
-    return '';
+    $title_and_text_partial = hsbc_partial_title_and_text($pid);
+    $team_collection_partial = hsbc_partial_team_list($pid);
+
+    return <<<EOT
+    <div class="section">
+    $title_and_text_partial
+        <div class="row">
+            <div class="col l1 show-on-large">
+                <!-- whitespace -->
+            </div>
+            <div class="col s12 m12 l10 z-depth-4 hsbc-team-list-wrapper">
+                $team_collection_partial
+            </div> 
+            <div class="col l1 show-on-large">
+                <!-- whitespace -->
+            </div>
+        </div>
+    </div>
+EOT;
 }
 
 function hsbc_post_external_media($pid) {
