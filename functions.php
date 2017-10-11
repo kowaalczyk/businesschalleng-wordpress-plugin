@@ -188,6 +188,27 @@ function hsbc_partial_side_image_row($pid) {
 EOT;
 }
 
+function hsbc_single_paragraph($pid) {
+    $title = get_the_title($pid);
+    $content = get_field('text_content', $pid);
+
+    return <<<EOT
+    <h5>
+        $title
+    </h5>
+    <p class="flow-text">
+        $content
+    </p>
+EOT;
+}
+
+function hsbc_partial_paragraphs($pid) {
+    $paragraphs = get_field('more_paragraphs', $pid);
+    $paragraph_ids = array_column($paragraphs, 'ID');
+    $paragpaph_templates = array_map('hsbc_single_paragraph', $paragraph_ids);
+    return join(' ', $paragpaph_templates);
+}
+
 function hsbc_partial_normal_button($pid) {
     $btn_text = get_field('button_text', $pid);
     $btn_link = hsbc_get_btn_link_url($pid);
@@ -320,12 +341,16 @@ function hsbc_post_standard($pid) {
     $add_side_image = get_field('add_side_image', $pid);
     $image_row_partial = ($add_side_image ? hsbc_partial_side_image_row($pid) : '');
 
+    $add_more_paragraphs = get_field('add_more_paragraphs', $pid);
+    $more_paragraphs_partial = ($add_more_paragraphs ? hsbc_partial_paragraphs($pid) : '')
+
     $add_normal_buttons = get_field('add_normal_buttons', $pid);
     $btn_row_partial = ($add_normal_buttons == 1 ? hsbc_partial_normal_buttons($pid) : '');
 
     return <<<EOT
     <div class="section">
     $title_and_text_partial
+    $more_paragraphs_partial
     $image_row_partial
     $btn_row_partial
     </div>
