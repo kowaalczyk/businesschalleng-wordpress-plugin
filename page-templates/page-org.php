@@ -98,14 +98,18 @@ get_header(); ?>
 
     <div class="card" id="partnerzy">
         <div class="card-image">
-            <img src="../assets/img/partners-background-temp.jpg" alt="">
-            <!-- TODO Change image -->
+            <img src="<?php the_field('jumbo_image') ?>" alt="">
             <h3 class="card-title hsbc-card-title">Organizatorzy konkursu</h3>
         </div>
         <div class="card-content">
-
-            <!-- TODO ORGANIZERS POSTS -->
-
+        <?php
+        $org_posts = get_field('organizer_post');
+        if($org_posts):
+            foreach ($org_posts  as $p):
+                echo hsbc_post($p->ID);
+            endforeach;
+        endif;
+        ?>
         </div>
     </div>
 </div>
