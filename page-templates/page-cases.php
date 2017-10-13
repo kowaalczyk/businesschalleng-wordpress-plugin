@@ -147,9 +147,8 @@ get_header(); ?>
     </div>
 
     <div class="card" id="zadania">
-        <div class="card-image">
-            <img src="../assets/img/case-background.jpg" alt="">
-            <h3 class="card-title hsbc-card-title">
+        <div class="card-content yellow darken-2">
+            <h3 class="card-title white-text hsbc-card-title">
                 <?php the_field('first_section_title') ?>
             </h3>
         </div>
@@ -166,7 +165,7 @@ get_header(); ?>
     </div>
 
     <div class="card" id="zagadnienia-merytoryczne">
-        <div class="card-content yellow darken-2">
+        <div class="card-content red darken-2">
             <h3 class="card-title white-text hsbc-card-title">
                 <?php the_field('second_section_title') ?>
             </h3>
@@ -182,7 +181,7 @@ get_header(); ?>
     </div>
 
     <div class="card" id="zrodla-wiedzy">
-        <div class="card-content yellow darken-2">
+        <div class="card-content blue darken-2">
             <h3 class="card-title white-text hsbc-card-title">
                 <?php the_field('third_section_title') ?>
             </h3>
