@@ -395,7 +395,19 @@ EOT;
 
 function hsbc_post_calendar($pid) {
     //TODO: Refactor the post to contain just a 4 dates (and 1 single post on a main page)
-    return '';
+    return <<<EOT
+    <div class="section">
+        <div class="col s12 m4 l4">
+            <!-- TODO: Registration SVG -->
+            <!-- TODO: Registration text -->
+            <!-- TODO: Registration dates -->
+            <!-- TODO: Consider adding registration link -->
+        </div>
+        <!-- TODO: 3 more times, add ACFs to admin panel and load data for this post -->
+        <!-- TODO: Refactor calendar section on main page to contain only one calendar post -->
+    </div>
+EOT;
+
 }
 
 function hsbc_post_team($pid) {
