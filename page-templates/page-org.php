@@ -103,7 +103,7 @@ get_header(); ?>
         </div>
         <div class="card-content">
         <?php
-        $org_posts = get_field('organizer_post');
+        $org_posts = get_field('organizer_posts');
         if($org_posts):
             foreach ($org_posts  as $p):
                 echo hsbc_post($p->ID);
