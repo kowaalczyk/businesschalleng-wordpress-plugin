@@ -1,5 +1,6 @@
 <?php
-//enqueuing styles from assets/css
+// STYLES ENQUEUED FROM NON-STANDARD LOCATION
+// (from assets/css)
 function hsbc_theme_stylesheets() {
     wp_enqueue_style( 'hsbc-theme-materialize-style',  get_template_directory_uri() .'/assets/css/materialize.min.css', array(), null, 'all' );
     wp_enqueue_style( 'hsbc-theme-hsbc-style',  get_template_directory_uri() .'/assets/css/hsbc.css', array('hsbc-theme-materialize-style'), null, 'all' );
@@ -13,6 +14,13 @@ function hsbc_theme_scripts() {
     wp_enqueue_script( 'hsbc-theme-hsbc-script', get_template_directory_uri() . '/assets/js/hsbc.js', array('hsbc-theme-materialize-script'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'hsbc_theme_scripts' );
+
+// MENUS
+
+function hsbc_register_menus() {
+    register_nav_menu('test-menu', __( 'Test Menu' ));
+}
+add_action( 'init', 'hsbc_register_menus' );
 
 // HELPER FUNCTIONS
 
@@ -394,14 +402,60 @@ EOT;
 }
 
 function hsbc_post_calendar($pid) {
+    $title_and_text_partial = hsbc_partial_title_and_text($pid);
+
+    $registration_logo = '';
+    $registration_text = '';
+    $registration_dates = '';
+
+    $test_logo = '';
+    $test_text = '';
+    $test_dates = '';
+
+    $presentation_logo = '';
+    $presentation_text = '';
+    $presentation_dates = '';
+
+    $final_logo = '';
+    $final_text = '';
+    $final_dates = '';
+
     //TODO: Refactor the post to contain just a 4 dates (and 1 single post on a main page)
     return <<<EOT
     <div class="section">
+    <!-- TODO: Consider adding registration link (and for other sections too) -->
+    $title_and_text_partial
         <div class="col s12 m4 l4">
-            <!-- TODO: Registration SVG -->
-            <!-- TODO: Registration text -->
-            <!-- TODO: Registration dates -->
-            <!-- TODO: Consider adding registration link -->
+            <!-- TODO: -->
+            $registration_logo
+            <!-- TODO: -->
+            $registration_text
+            <!-- TODO: -->
+            $registration_dates
+        </div>
+        <div class="col s12 m4 l4">
+            <!-- TODO: -->
+            $test_logo
+            <!-- TODO: -->
+            $test_text
+            <!-- TODO: -->
+            $test_dates
+        </div>
+        <div class="col s12 m4 l4">
+            <!-- TODO: -->
+            $presentation_logo
+            <!-- TODO: -->
+            $presentation_text
+            <!-- TODO: -->
+            $presentation_dates
+        </div>
+        <div class="col s12 m4 l4">
+            <!-- TODO: -->
+            $final_logo
+            <!-- TODO: -->
+            $final_text
+            <!-- TODO: -->
+            $final_dates
         </div>
         <!-- TODO: 3 more times, add ACFs to admin panel and load data for this post -->
         <!-- TODO: Refactor calendar section on main page to contain only one calendar post -->
