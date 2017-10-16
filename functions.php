@@ -135,13 +135,15 @@ function hsbc_team_two_template($pid) {
     $team_place = get_field('team_place_text', $pid);
     if(! $team_place) {
         $team_place = '';
+    } else {
+        $team_place = ' - ' . $team_place;
     }
 
     return <<<EOT
     <div class="col s12 m6 l6">
         <h5>
             $team_title 
-            <span class="grey-text hsbc-right-subtitle"> - $team_place</span>
+            <span class="grey-text hsbc-right-subtitle">$team_place</span>
         </h5>
         <p>
             $team_description
@@ -310,12 +312,14 @@ function hsbc_partial_team_one($teams) {
     $team_place = get_field('team_place_text', $pid);
     if(! $team_place) {
         $team_place = '';
+    } else {
+        $team_place = ' - ' . $team_place;
     }
 
     return <<<EOT
     <h4>
         $team_title
-        <span class="grey-text hsbc-right-subtitle"> - $team_place</span>
+        <span class="grey-text hsbc-right-subtitle">$team_place</span>
     </h4>
     <p class="flow-text">
         $team_description
