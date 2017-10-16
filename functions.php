@@ -18,9 +18,34 @@ add_action( 'wp_enqueue_scripts', 'hsbc_theme_scripts' );
 // MENUS
 
 function hsbc_register_menus() {
-    register_nav_menu('test-menu', __( 'Test Menu' ));
+    register_nav_menus( array(
+        'hsbc_main_menu' => __( 'HSBC Main Menu' ),
+        'hsbc_edition_submenu' => __( 'HSBC Edition Submenu' )
+    ) );
 }
 add_action( 'init', 'hsbc_register_menus' );
+
+function hsbc_menu_li_filters ($classes, $item, $args) {
+    if($args->theme_location == 'hsbc_edition_submenu') {
+        $classes[] = 'hsbc-nav-item';
+    }
+
+    if (in_array('current-menu-item', $classes) ){
+        $classes[] = 'active ';
+    }
+
+    return $classes;
+}
+add_filter('nav_menu_css_class' , 'hsbc_menu_li_filters' , 10 , 3);
+
+function hsbc_menu_link_filters ($atts, $item, $args) {
+    if($args->theme_location == 'hsbc_edition_submenu') {
+        $atts['class'] = 'grey-text text-darken-4';
+    }
+
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'hsbc_menu_link_filters', 10, 3);
 
 // HELPER FUNCTIONS
 

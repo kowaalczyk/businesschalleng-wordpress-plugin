@@ -17,11 +17,16 @@ get_header(); ?>
 
     <!-- NAVIGATION -->
     <!-- HEADER NAV -->
-    <ul id="edition-dropdown" class="dropdown-content black-text">
-        <li><a href="/edition-1" class="grey-text text-darken-4">Edycja 1</a></li>
-        <li><a href="/edition-2" class="grey-text text-darken-4">Edycja 2</a></li>
-        <li><a href="/edition-3" class="grey-text text-darken-4">Edycja 3</a></li>
-    </ul>
+<?php
+    wp_nav_menu( array(
+        'theme_location' => 'hsbc_edition_submenu',
+        'container' => false,
+        'container_class' => false,
+        'container_id' => false,
+        'menu_class' => 'dropdown-content black-text',
+        'menu_id' => 'edition-dropdown'
+    ) );
+?>
 
     <div class="hide-on-med-and-down navbar-fixed" id="hsbc-big-navbar">
         <nav class="nav-extended white hsbc-nav-container">
@@ -39,9 +44,6 @@ get_header(); ?>
                                 <a href="/" class="grey-text text-darken-4">Bieżąca edycja</a>
                             </li>
                             <li class="hsbc-nav-item">
-                                <a href="#!" class="grey-text text-darken-4 dropdown-button" data-activates="edition-dropdown">Poprzednie edycje</a>
-                            </li>
-                            <li class="hsbc-nav-item">
                                 <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>
                             </li>
                             <li class="hsbc-nav-item">
@@ -55,6 +57,12 @@ get_header(); ?>
                             </li>
                             <li class="hsbc-nav-item">
                                 <a href="/contact" class="grey-text text-darken-4">Kontakt</a>
+                            </li>
+                        </ul>
+
+                        <ul class="right">
+                            <li class="hsbc-nav-item">
+                                <a href="#!" class="grey-text text-darken-4 dropdown-button" data-activates="edition-dropdown">Poprzednie edycje</a>
                             </li>
                         </ul>
                     </div>
@@ -72,15 +80,15 @@ get_header(); ?>
 
     <ul class="side-nav" id="hsbc-mobile-nav">
         <li><a href="#!">Bieżąca edycja</a></li>
-        <li><a href="#!"
-               class="grey-text text-darken-4 dropdown-button"
-               data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>
-        </li>
         <li><a href="#!">Zadania i materiały</a></li>
         <li><a href="#!">Zwycięzcy</a></li>
         <li><a href="#!">Partnerzy</a></li>
         <li><a href="#!">Organizatorzy</a></li>
         <li><a href="#!">Kontakt</a></li>
+        <li><a href="#!"
+               class="grey-text text-darken-4 dropdown-button"
+               data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>
+        </li>
     </ul>
 
     <div class="navbar-fixed hide-on-large-only" id="hsbc-small-navbar">
