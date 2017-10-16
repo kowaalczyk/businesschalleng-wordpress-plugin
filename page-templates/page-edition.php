@@ -16,9 +16,7 @@
 
 get_header(); ?>
 
-<!-- TODO NAVIGATION for edition pages -->
-
-<!-- always remember to open this tag:-->
+<!-- CONTENT -->
 <div class="container hsbc-container">
     <!-- JUMBO WITH LINKS -->
     <div class="hide-on-small-only hsbc-jumbo-container">
