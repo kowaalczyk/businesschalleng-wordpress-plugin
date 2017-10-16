@@ -148,7 +148,7 @@ function hsbc_team_two_template($pid) {
         <p>
             $team_description
         </p>
-        <img class="responsive-img hsbc-team-image-container" src="$team_photo" alt="">
+        <img class="responsive-img materialboxed hsbc-team-image-container" src="$team_photo" alt="">
         <ul class="collection z-depth-2">
             $team_members_joined
         </ul>
@@ -326,7 +326,7 @@ function hsbc_partial_team_one($teams) {
     </p>
     <div class="row">
         <div class="col s12 m12 l6 hsbc-team-image-container">
-            <img class="responsive-img" src="$team_photo" alt="">
+            <img class="responsive-img materialboxed" src="$team_photo" alt="">
         </div>
         <div class="col s12 m12 l6">
             <ul class="collection z-depth-2">
