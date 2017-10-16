@@ -542,7 +542,7 @@ function hsbc_post_partner($pid) {
             </div>
             <div class="col s12 m6 l7">
                 <h5>
-                    $partner_name
+                    $partner_name <br>
                     <span class="grey-text hsbc-right-subtitle">$partner_type</span>
                 </h5>
                 <p class="flow-text">
