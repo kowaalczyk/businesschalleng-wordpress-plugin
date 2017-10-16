@@ -50,27 +50,6 @@ get_header(); ?>
                             'menu_id' => false
                         ) );
                         ?>
-<!--                        <ul>-->
-<!--                            <li class="active hsbc-nav-item">-->
-<!--                                <a href="/" class="grey-text text-darken-4">Bieżąca edycja</a>-->
-<!--                            </li>-->
-<!--                            <li class="hsbc-nav-item">-->
-<!--                                <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>-->
-<!--                            </li>-->
-<!--                            <li class="hsbc-nav-item">-->
-<!--                                <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>-->
-<!--                            </li>-->
-<!--                            <li class="hsbc-nav-item">-->
-<!--                                <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>-->
-<!--                            </li>-->
-<!--                            <li class="hsbc-nav-item">-->
-<!--                                <a href="/org" class="grey-text text-darken-4">Organizatorzy</a>-->
-<!--                            </li>-->
-<!--                            <li class="hsbc-nav-item">-->
-<!--                                <a href="/contact" class="grey-text text-darken-4">Kontakt</a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-
                         <ul class="right">
                             <li class="hsbc-nav-item">
                                 <a href="#!" class="grey-text text-darken-4 dropdown-button" data-activates="edition-dropdown">Poprzednie edycje</a>
@@ -106,12 +85,6 @@ wp_nav_menu( array(
             'items_wrap' => '<!-- NO ITEMS WRAP id="%1$s" class="%2$s" --> %3$s'
         ) );
         ?>
-<!--        <li><a href="#!">Bieżąca edycja</a></li>-->
-<!--        <li><a href="#!">Zadania i materiały</a></li>-->
-<!--        <li><a href="#!">Zwycięzcy</a></li>-->
-<!--        <li><a href="#!">Partnerzy</a></li>-->
-<!--        <li><a href="#!">Organizatorzy</a></li>-->
-<!--        <li><a href="#!">Kontakt</a></li>-->
         <li><a href="#!"
                class="grey-text text-darken-4 dropdown-button"
                data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>
