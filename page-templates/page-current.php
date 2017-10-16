@@ -79,15 +79,9 @@ wp_nav_menu( array(
     'container_class' => false,
     'container_id' => false,
     'menu_class' => 'dropdown-content black-text',
-    'menu_id' => 'edition-dropdown'
+    'menu_id' => 'edition-dropdown-sidenav'
 ) );
 ?>
-
-    <ul id="edition-dropdown-sidenav" class="dropdown-content black-text">
-        <li><a href="/edition-1" class="grey-text text-darken-4">Edycja 1</a></li>
-        <li><a href="/edition-2" class="grey-text text-darken-4">Edycja 2</a></li>
-        <li><a href="/edition-3" class="grey-text text-darken-4">Edycja 3</a></li>
-    </ul>
 
     <ul class="side-nav" id="hsbc-mobile-nav">
         <li><a href="#!">Bieżąca edycja</a></li>
