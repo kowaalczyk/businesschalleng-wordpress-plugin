@@ -36,29 +36,40 @@ get_header(); ?>
                          src="assets/img/hsbc-logo.png"
                          alt="">
                     <!--TODO: Logo in SVG-->
+<!--                    TODO: LOGO AS WORDPRESS POST !!! -->
                 </div>
                 <div class="col m10 l11">
                     <div class="nav-wrapper">
-                        <ul>
-                            <li class="active hsbc-nav-item">
-                                <a href="/" class="grey-text text-darken-4">Bieżąca edycja</a>
-                            </li>
-                            <li class="hsbc-nav-item">
-                                <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>
-                            </li>
-                            <li class="hsbc-nav-item">
-                                <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>
-                            </li>
-                            <li class="hsbc-nav-item">
-                                <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>
-                            </li>
-                            <li class="hsbc-nav-item">
-                                <a href="/org" class="grey-text text-darken-4">Organizatorzy</a>
-                            </li>
-                            <li class="hsbc-nav-item">
-                                <a href="/contact" class="grey-text text-darken-4">Kontakt</a>
-                            </li>
-                        </ul>
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location' => 'hsbc_main_menu',
+                            'container' => false,
+                            'container_class' => false,
+                            'container_id' => false,
+                            'menu_class' => false,
+                            'menu_id' => false
+                        ) );
+                        ?>
+<!--                        <ul>-->
+<!--                            <li class="active hsbc-nav-item">-->
+<!--                                <a href="/" class="grey-text text-darken-4">Bieżąca edycja</a>-->
+<!--                            </li>-->
+<!--                            <li class="hsbc-nav-item">-->
+<!--                                <a href="/cases" class="grey-text text-darken-4">Zadania i materiały</a>-->
+<!--                            </li>-->
+<!--                            <li class="hsbc-nav-item">-->
+<!--                                <a href="/winners" class="grey-text text-darken-4">Zwycięzcy</a>-->
+<!--                            </li>-->
+<!--                            <li class="hsbc-nav-item">-->
+<!--                                <a href="/partners" class="grey-text text-darken-4">Partnerzy</a>-->
+<!--                            </li>-->
+<!--                            <li class="hsbc-nav-item">-->
+<!--                                <a href="/org" class="grey-text text-darken-4">Organizatorzy</a>-->
+<!--                            </li>-->
+<!--                            <li class="hsbc-nav-item">-->
+<!--                                <a href="/contact" class="grey-text text-darken-4">Kontakt</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
 
                         <ul class="right">
                             <li class="hsbc-nav-item">
@@ -84,12 +95,23 @@ wp_nav_menu( array(
 ?>
 
     <ul class="side-nav" id="hsbc-mobile-nav">
-        <li><a href="#!">Bieżąca edycja</a></li>
-        <li><a href="#!">Zadania i materiały</a></li>
-        <li><a href="#!">Zwycięzcy</a></li>
-        <li><a href="#!">Partnerzy</a></li>
-        <li><a href="#!">Organizatorzy</a></li>
-        <li><a href="#!">Kontakt</a></li>
+        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'hsbc_main_menu',
+            'container' => false,
+            'container_class' => false,
+            'container_id' => false,
+            'menu_class' => false,
+            'menu_id' => false,
+            'items_wrap' => '<!-- NO ITEMS WRAP id="%1$s" class="%2$s" --> %3$s'
+        ) );
+        ?>
+<!--        <li><a href="#!">Bieżąca edycja</a></li>-->
+<!--        <li><a href="#!">Zadania i materiały</a></li>-->
+<!--        <li><a href="#!">Zwycięzcy</a></li>-->
+<!--        <li><a href="#!">Partnerzy</a></li>-->
+<!--        <li><a href="#!">Organizatorzy</a></li>-->
+<!--        <li><a href="#!">Kontakt</a></li>-->
         <li><a href="#!"
                class="grey-text text-darken-4 dropdown-button"
                data-activates="edition-dropdown-sidenav">Poprzednie edycje</a>

@@ -25,21 +25,21 @@ function hsbc_register_menus() {
 }
 add_action( 'init', 'hsbc_register_menus' );
 
-function hsbc_menu_li_filters ($classes, $item, $args) {
-    if($args->theme_location == 'hsbc_edition_submenu') {
+function hsbc_menu_item_filters ($classes, $item, $args) {
+    if($args->theme_location == 'hsbc_main_menu') {
         $classes[] = 'hsbc-nav-item';
     }
 
-    if (in_array('current-menu-item', $classes) ){
+    if(in_array('current-menu-item', $classes) ){
         $classes[] = 'active ';
     }
 
     return $classes;
 }
-add_filter('nav_menu_css_class' , 'hsbc_menu_li_filters' , 10 , 3);
+add_filter('nav_menu_css_class' , 'hsbc_menu_item_filters' , 10 , 3);
 
 function hsbc_menu_link_filters ($atts, $item, $args) {
-    if($args->theme_location == 'hsbc_edition_submenu') {
+    if($args->theme_location == 'hsbc_edition_submenu' || $args->theme_location == 'hsbc_main_menu') {
         $atts['class'] = 'grey-text text-darken-4';
     }
 
