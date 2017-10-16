@@ -12,9 +12,9 @@ $(document).ready(function(){
 var $root = $('html, body');
 $('a.hsbc-scroll').click(function() {
     var href = $.attr(this, 'href');
-    // TODO: Fix scrolling offset on devices with small navbar
+    var currentOffset = $('#hsbc-big-navbar').is(":visible") ? 88 : 64;
     $root.animate({
-        scrollTop: $(href).offset().top - 88
+        scrollTop: $(href).offset().top - currentOffset
     }, 500, function () {
         window.location.hash = href;
     });
