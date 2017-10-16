@@ -400,69 +400,81 @@ function hsbc_post_external_media($pid) {
     </div>
 EOT;
 }
-
 function hsbc_post_calendar($pid) {
     $title_and_text_partial = hsbc_partial_title_and_text($pid);
 
-    $registration_logo = '';
-    $registration_text = '';
-    $registration_dates = '';
+    $registration_logo = get_field('registration_logo', $pid);
+    $registration_text = get_field('registration_text', $pid);
+    $registration_dates = get_field('registration_dates', $pid);
 
-    $test_logo = '';
-    $test_text = '';
-    $test_dates = '';
+    $test_logo = get_field('test_logo', $pid);
+    $test_text = get_field('test_text', $pid);
+    $test_dates = get_field('test_dates', $pid);
 
-    $presentation_logo = '';
-    $presentation_text = '';
-    $presentation_dates = '';
+    $presentation_logo = get_field('presentation_logo', $pid);
+    $presentation_text = get_field('presentation_text', $pid);
+    $presentation_dates = get_field('presentation_dates', $pid);
 
-    $final_logo = '';
-    $final_text = '';
-    $final_dates = '';
+    $final_logo = get_field('final_logo', $pid);
+    $final_text = get_field('final_text', $pid);
+    $final_dates = get_field('final_dates', $pid);
 
-    //TODO: Refactor the post to contain just a 4 dates (and 1 single post on a main page)
+    //TODO: Consider adding registration link (and for other sections too)
+
     return <<<EOT
     <div class="section">
-    <!-- TODO: Consider adding registration link (and for other sections too) -->
     $title_and_text_partial
-        <div class="col s12 m4 l4">
-            <!-- TODO: -->
-            $registration_logo
-            <!-- TODO: -->
-            $registration_text
-            <!-- TODO: -->
-            $registration_dates
+        <div class="row">
+            <div class="col s12 m3 l3">
+                <div class="hsbc-svg-container center-align">
+                    <i class="material-icons md-60">people</i>
+                </div>
+                <p class="center-align hsbc-calendar">
+                $registration_text
+                </p>
+                <p class="center-align hsbc-calendar">
+                $registration_dates
+                </p>
+            </div>
+            <div class="col s12 m3 l3">
+                <div class="hsbc-svg-container center-align">
+                    <i class="material-icons md-60">laptop_chromebook</i>
+                </div>
+                <p class="center-align hsbc-calendar">
+                $test_text
+                </p>
+                <p class="center-align hsbc-calendar">
+                $test_dates
+                </p>
+            </div>
+            <div class="col s12 m3 l3">
+                <div class="hsbc-svg-container center-align">
+                    <i class="material-icons md-60">slideshow</i>
+                </div>
+                <p class="center-align hsbc-calendar">
+                $presentation_text
+                </p>
+                <p class="center-align hsbc-calendar">
+                $presentation_dates
+                </p>
+            </div>
+            <div class="col s12 m3 l3">
+                <div class="hsbc-svg-container center-align">
+                    <i class="material-icons md-60">next_week</i>
+                </div>
+                <p class="center-align hsbc-calendar">
+                $final_text
+                </p>
+                <p class="center-align hsbc-calendar">
+                $final_dates
+                </p>
+            </div>
         </div>
-        <div class="col s12 m4 l4">
-            <!-- TODO: -->
-            $test_logo
-            <!-- TODO: -->
-            $test_text
-            <!-- TODO: -->
-            $test_dates
-        </div>
-        <div class="col s12 m4 l4">
-            <!-- TODO: -->
-            $presentation_logo
-            <!-- TODO: -->
-            $presentation_text
-            <!-- TODO: -->
-            $presentation_dates
-        </div>
-        <div class="col s12 m4 l4">
-            <!-- TODO: -->
-            $final_logo
-            <!-- TODO: -->
-            $final_text
-            <!-- TODO: -->
-            $final_dates
-        </div>
-        <!-- TODO: 3 more times, add ACFs to admin panel and load data for this post -->
-        <!-- TODO: Refactor calendar section on main page to contain only one calendar post -->
     </div>
 EOT;
 
 }
+
 
 function hsbc_post_team($pid) {
     $team_components = get_field('teams', $pid);

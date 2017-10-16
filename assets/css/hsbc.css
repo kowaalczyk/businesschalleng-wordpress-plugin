@@ -4,6 +4,7 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
 
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -168,4 +169,20 @@ h3.card-title.hsbc-card-title {
 .hsbc-li-finalist-title * {
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+/* calendar */
+p.hsbc-calendar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+/* SVGs */
+.hsbc-svg-container,
+.hsbc-svg-container * {
+    height: 88px;
+    width: auto;
+    margin: auto;
+    padding: 12px 0;
 }
