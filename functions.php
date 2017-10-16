@@ -143,8 +143,8 @@ function hsbc_team_two_template($pid) {
         <p>
             $team_description
         </p>
-        <img class="responsive-img" src="$team_photo" alt="Card post image">
-        <ul class="collection">
+        <img class="responsive-img hsbc-team-image-container" src="$team_photo" alt="">
+        <ul class="collection z-depth-2">
             $team_members_joined
         </ul>
     </div>
@@ -158,7 +158,7 @@ function hsbc_team_many_template($pid) {
 
     return <<<EOT
     <div class="col s12 m6 l4">
-        <ul class="collection with-header">
+        <ul class="collection with-header z-depth-2">
             <li class="collection-header hsbc-li-finalist-title center-align">
                 <h5>
                     $team_title
@@ -313,11 +313,11 @@ function hsbc_partial_team_one($teams) {
         $team_description
     </p>
     <div class="row">
-        <div class="col s12 m12 l6">
+        <div class="col s12 m12 l6 hsbc-team-image-container">
             <img class="responsive-img" src="$team_photo" alt="">
         </div>
         <div class="col s12 m12 l6">
-            <ul class="collection">
+            <ul class="collection z-depth-2">
                 $team_members_joined
             </ul>
         </div>

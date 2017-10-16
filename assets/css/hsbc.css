@@ -90,6 +90,7 @@
     width: 100%;
     text-align: right;
     white-space: nowrap;
+    padding-right: 32px;
 }
 
 .hsbc-jumbo-text-placeholder {
@@ -169,6 +170,11 @@ h3.card-title.hsbc-card-title {
 .hsbc-li-finalist-title * {
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+/* team posts */
+.hsbc-team-image-container {
+    margin: 8.5px auto;
 }
 
 /* calendar */
