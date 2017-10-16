@@ -10,7 +10,9 @@ $(document).ready(function(){
 });
 
 var $root = $('html, body');
-$('a.hsbc-scroll').click(function() {
+$('a.hsbc-scroll').click(function(event) {
+    event.preventDefault();
+
     var href = $.attr(this, 'href');
     var currentOffset = $('#hsbc-big-navbar').is(":visible") ? 88 : 64;
     $root.animate({
