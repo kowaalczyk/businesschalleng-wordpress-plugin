@@ -2,7 +2,7 @@
 /**
  * The main template file
  *
- * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic empty page.
+ * TODO: Add 404 page, use this as backup
  *
  * @link http://linkedin.com/in/kowaalczyk
  *

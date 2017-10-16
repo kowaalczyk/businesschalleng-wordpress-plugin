@@ -1,12 +1,18 @@
 $(document).ready(function(){
     $('.parallax').parallax();
-    $('.dropdown-button').dropdown({hover: true});
-    $('.materialboxed').materialbox();
-    $('.button-collapse').sideNav({
-        menuWidth: 300,
-        closeOnClick: true,
-        draggable: true
+    $('.dropdown-button').dropdown({
+        hover: true,
+        belowOrigin: true,
+        closeOnClick: false,
+        stopPropagation: true
     });
+    $('.materialboxed').materialbox();
+});
+
+$('.button-collapse').sideNav({
+    menuWidth: 300,
+    closeOnClick: true,
+    draggable: true
 });
 
 var $root = $('html, body');

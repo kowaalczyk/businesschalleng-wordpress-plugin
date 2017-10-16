@@ -2,7 +2,6 @@
 /**
  * Template Name: Edition Page
  *
- * TODO: Edition page template
  *
  * Template for edition pages (right now the only template in this theme prepared for use on multiple pages)
  *
@@ -35,15 +34,6 @@ get_header(); ?>
                     <!-- whitespace -->
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="hsbc-mobile-jumbo-container">
-        <div class="show-small hsbc-mobile-jumbo">
-            <!--TODO Mobile Jumbo-->
-        </div>
-        <div class="show-small hsbc-mobile-jumbo-links">
-            <!--TODO Mobile Jumbo-->
         </div>
     </div>
 

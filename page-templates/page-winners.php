@@ -20,9 +20,7 @@ get_header(); ?>
 <div class="container hsbc-container">
 
     <div class="card" id="zwyciezcy">
-        <div class="card-image">
-            <img src="../assets/img/winners-background-temp.jpg" alt="">
-            <!-- TODO Change image -->
+        <div class="card-image">\
             <h3 class="card-title hsbc-card-title">Zwycięzcy poprzednich edycji</h3>
         </div>
         <div class="card-content">

@@ -527,19 +527,23 @@ function hsbc_post_partner($pid) {
     if(!$partner_description) {
         $partner_description = '';
     }
-    //TODO: Partner type, link to partner website
+    $partner_url = get_field('partner_website', $pid);
+    $partner_type = get_field('partner_type', $pid);
 
     return <<<EOT
     <div class="section">
         <div class="row">
             <div class="col s12 m6 l5">
-                <img class="responsive-img"
+                <a href="$partner_url" target="_blank">
+                    <img class="responsive-img"
                      src="$partner_logo"
-                     alt="">
+                     alt="">                
+                </a>
             </div>
             <div class="col s12 m6 l7">
                 <h5>
                     $partner_name
+                    <span class="grey-text hsbc-right-subtitle">$partner_type</span>
                 </h5>
                 <p class="flow-text">
                     $partner_description
@@ -552,7 +556,6 @@ EOT;
 
 function hsbc_post($pid) {
     $cat_names = hsbc_category_names($pid);
-    //TODO: Consider sending to function based on post category slug (like in rails)
 
     if(in_array('HSBC Standard Posts', $cat_names)):
         return hsbc_post_standard($pid);

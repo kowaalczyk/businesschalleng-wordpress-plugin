@@ -65,15 +65,6 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="hsbc-mobile-jumbo-container">
-            <div class="show-small hsbc-mobile-jumbo">
-                <!--TODO Mobile Jumbo-->
-            </div>
-            <div class="show-small hsbc-mobile-jumbo-links">
-                <!--TODO Mobile Jumbo-->
-            </div>
-        </div>
-
         <div class="card" id="aktualnosci">
             <div class="card-content yellow darken-2">
                 <h3 class="card-title white-text hsbc-card-title">
