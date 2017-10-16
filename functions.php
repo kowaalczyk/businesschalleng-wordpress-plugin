@@ -29,16 +29,6 @@ function hsbc_category_names($pid) {
     return array_column($categories, 'name');
 }
 
-function hsbc_is_post($p) {
-    $cat_names = hsbc_category_names($p);
-    return in_array('HSBC Posts', $cat_names);
-}
-
-function hsbc_is_component($c) {
-    $cat_names = hsbc_category_names($c);
-    return in_array('HSBC Components', $cat_names);
-}
-
 // HSBC COMPONENT HELPERS
 function hsbc_get_btn_link_url($pid) {
     if(get_field('link_to_file', $pid)) {
@@ -403,19 +393,15 @@ EOT;
 function hsbc_post_calendar($pid) {
     $title_and_text_partial = hsbc_partial_title_and_text($pid);
 
-    $registration_logo = get_field('registration_logo', $pid);
     $registration_text = get_field('registration_text', $pid);
     $registration_dates = get_field('registration_dates', $pid);
 
-    $test_logo = get_field('test_logo', $pid);
     $test_text = get_field('test_text', $pid);
     $test_dates = get_field('test_dates', $pid);
 
-    $presentation_logo = get_field('presentation_logo', $pid);
     $presentation_text = get_field('presentation_text', $pid);
     $presentation_dates = get_field('presentation_dates', $pid);
 
-    $final_logo = get_field('final_logo', $pid);
     $final_text = get_field('final_text', $pid);
     $final_dates = get_field('final_dates', $pid);
 
@@ -526,8 +512,6 @@ function hsbc_post_partner($pid) {
     </div> 
 EOT;
 }
-
-// HSBC RENDERING FUNCTIONS
 
 function hsbc_post($pid) {
     $cat_names = hsbc_category_names($pid);

@@ -3,7 +3,7 @@
  * Template Name: Current Page
  * The main template file
  *
- * Displays HSBC Home Page (TODO: Change to page.php, leave index as generic empty page.
+ * Displays HSBC Home Page
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
