@@ -72,6 +72,17 @@ get_header(); ?>
     </div>
 
     <!-- SIDE NAV -->
+<?php
+wp_nav_menu( array(
+    'theme_location' => 'hsbc_edition_submenu',
+    'container' => false,
+    'container_class' => false,
+    'container_id' => false,
+    'menu_class' => 'dropdown-content black-text',
+    'menu_id' => 'edition-dropdown'
+) );
+?>
+
     <ul id="edition-dropdown-sidenav" class="dropdown-content black-text">
         <li><a href="/edition-1" class="grey-text text-darken-4">Edycja 1</a></li>
         <li><a href="/edition-2" class="grey-text text-darken-4">Edycja 2</a></li>
