@@ -31,6 +31,12 @@
 
 <body <?php body_class(); ?>>
 
+<?php
+//getting custom global metadata (placeholder for sites without ACF Premium)
+$hsbc_logo_data_post = get_page_by_path('hsbc-logo-post-do-not-delete', OBJECT, 'post');
+$hsbc_logo_url = get_field('hsbc_logo', $hsbc_logo_data_post->ID);
+?>
+
 <!-- NAVIGATION -->
 <!-- HEADER NAV -->
 <?php
@@ -49,10 +55,9 @@ wp_nav_menu( array(
         <div class="row">
             <div class="col m2 l1 center-align hsbc-logo-container">
                 <img class=""
-                     src="assets/img/hsbc-logo.png"
+                     src="<?php echo $hsbc_logo_url ?>"
                      alt="">
                 <!--TODO: Logo in SVG-->
-                <!--                    TODO: LOGO AS WORDPRESS POST !!! -->
             </div>
             <div class="col m10 l11">
                 <div class="nav-wrapper">
