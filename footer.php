@@ -22,7 +22,7 @@
                     High School Business Challenge
                 </h5>
                 <p class="grey-text text-lighten-4">
-                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-1">kontakt@businesschallenge.pl</a>
+                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-3">kontakt@businesschallenge.pl</a>
                     <br>
                 <address>
                     SKN BIZNESU <br>
@@ -46,7 +46,7 @@
         <div class="container">
             © SKN Biznesu
             <span class="grey-text text-lighten-4 right">
-                    Projekt i wykonanie strony: Krzysztof Kowalczyk
+                    Projekt i wykonanie strony: <a href="https://www.linkedin.com/in/kowaalczyk/" class="grey-text text-lighten-3">Krzysztof Kowalczyk</a>
                 </span>
         </div>
     </div>
