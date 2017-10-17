@@ -556,28 +556,35 @@ EOT;
 
 function hsbc_post($pid) {
     $cat_names = hsbc_category_names($pid);
+    $hsbc_post = '';
 
     if(in_array('HSBC Standard Posts', $cat_names)):
-        return hsbc_post_standard($pid);
+        $hsbc_post = hsbc_post_standard($pid);
     endif;
 
     if(in_array('HSBC List Posts', $cat_names)):
-        return hsbc_post_list($pid);
+        $hsbc_post = hsbc_post_list($pid);
     endif;
 
     if(in_array('HSBC External Media Posts', $cat_names)):
-        return hsbc_post_external_media($pid);
+        $hsbc_post = hsbc_post_external_media($pid);
     endif;
 
     if(in_array('HSBC Calendar Posts', $cat_names)):
-        return hsbc_post_calendar($pid);
+        $hsbc_post = hsbc_post_calendar($pid);
     endif;
 
     if(in_array('HSBC Team Posts', $cat_names)):
-        return hsbc_post_team($pid);
+        $hsbc_post = hsbc_post_team($pid);
     endif;
 
     if(in_array('HSBC Partner Posts', $cat_names)):
-        return hsbc_post_partner($pid);
+        $hsbc_post = hsbc_post_partner($pid);
     endif;
+
+    return <<<EOT
+    $hsbc_post
+    <div class="divider"></div>
+EOT;
+
 }
