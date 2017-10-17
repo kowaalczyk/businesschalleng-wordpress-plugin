@@ -4,6 +4,7 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
 
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -24,8 +25,6 @@
     }
 }
 
-/* DESKTOP VIEW works above ~1100px width desktops and tablets, TODO: Responsive jumbo */
-
 /* navigation */
 .hsbc-logo-container>img {
     width: 88px;
@@ -41,9 +40,10 @@
     height: 88px;
 }
 
-#hsbc-big-navbar .navbar-fixed,
+#hsbc-big-navbar.navbar-fixed,
+#hsbc-big-navbar>nav,
 #hsbc-big-navbar .hsbc-nav-container,
-#hsbc-big-navbar .hsbc-nav-container nav {
+#hsbc-big-navbar .hsbc-nav-container .row {
     height: 88px;
 }
 
@@ -88,6 +88,7 @@
     width: 100%;
     text-align: right;
     white-space: nowrap;
+    padding-right: 32px;
 }
 
 .hsbc-jumbo-text-placeholder {
@@ -102,6 +103,7 @@
 
 .hsbc-jumbo-content a {
     display: block;
+    text-transform: uppercase;
 }
 
 @media (max-width: 824px) {
@@ -158,6 +160,7 @@ h3.card-title.hsbc-card-title {
     margin-top: 8px;
 }
 
+/* team posts */
 .hsbc-right-subtitle {
     font-size: 67%;
     text-transform: uppercase;
@@ -166,4 +169,24 @@ h3.card-title.hsbc-card-title {
 .hsbc-li-finalist-title * {
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+.hsbc-team-image-container {
+    margin: 8.5px auto;
+}
+
+/* calendar */
+p.hsbc-calendar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+/* SVGs */
+.hsbc-svg-container,
+.hsbc-svg-container * {
+    height: 88px;
+    width: auto;
+    margin: auto;
+    padding: 12px 0;
 }

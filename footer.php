@@ -1,3 +1,19 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link http://linkedin.com/in/kowaalczyk
+ *
+ * @package HSBC_Theme
+ * @subpackage Main_Theme
+ * @since 0.1
+ * @version 0.1
+ */
+
+?>
+
 <footer class="page-footer">
     <div class="container">
         <div class="row">
@@ -6,7 +22,7 @@
                     High School Business Challenge
                 </h5>
                 <p class="grey-text text-lighten-4">
-                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-1">kontakt@businesschallenge.pl</a>
+                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-3">kontakt@businesschallenge.pl</a>
                     <br>
                 <address>
                     SKN BIZNESU <br>
@@ -30,41 +46,12 @@
         <div class="container">
             © SKN Biznesu
             <span class="grey-text text-lighten-4 right">
-                    Projekt i wykonanie strony: Krzysztof Kowalczyk
+                    Projekt i wykonanie strony: <a href="https://www.linkedin.com/in/kowaalczyk/" class="grey-text text-lighten-3">Krzysztof Kowalczyk</a>
                 </span>
         </div>
     </div>
 </footer>
 
-<!--###################################### JavaScript ######################################-->
-<!-- IMPORTS -->
-<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.min.js"></script>
-
-<!-- HSBC -->
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-        $('.dropdown-button').dropdown({hover: true});
-        $('.materialboxed').materialbox();
-        $('.button-collapse').sideNav({
-            menuWidth: 300,
-            closeOnClick: true,
-            draggable: true
-        });
-    });
-
-    var $root = $('html, body');
-    $('a.hsbc-scroll').click(function() {
-        var href = $.attr(this, 'href');
-        // TODO: Fix scrolling offset on devices with small navbar
-        $root.animate({
-            scrollTop: $(href).offset().top - 88
-        }, 500, function () {
-            window.location.hash = href;
-        });
-        return false;
-    });
-</script>
+<?php wp_footer(); ?>
 </body>
 </html>
