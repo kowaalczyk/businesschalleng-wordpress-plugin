@@ -24,7 +24,7 @@ get_header(); ?>
             <img src="<?php the_field('jumbo_image') ?>" alt="">
             <h3 class="card-title hsbc-card-title">Partnerzy bieżącej edycji</h3>
         </div>
-        <div class="card-contnet">
+        <div class="card-content">
             <?php
             $partners_posts = get_field('partners_posts');
             if($partners_posts):
