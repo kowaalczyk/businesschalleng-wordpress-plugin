@@ -2,7 +2,7 @@
 /**
  * The main template file
  *
- * TODO: Add 404 page, use this as backup
+ * 404 is present so this page should never be displayed
  *
  * @link http://linkedin.com/in/kowaalczyk
  *
@@ -16,6 +16,6 @@ get_header(); ?>
 
     <!-- CONTENT -->
     <div class="container hsbc-container">
-<!--       TODO: Add content for index page, create 404 page -->
+<!--       index page left blank intentionally -->
     </div>
 <?php get_footer();
