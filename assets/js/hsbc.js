@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.button-collapse').sideNav({
         menuWidth: 300,
-        closeOnClick: true,
+        closeOnClick: false,
         draggable: true
     });
 });
