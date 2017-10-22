@@ -309,17 +309,10 @@ function hsbc_partial_team_one($teams) {
     $team_members = hsbc_get_team_members($pid, 'hsbc_winning_formatter');
     $team_members_joined = join(' ', $team_members);
 
-    $team_place = get_field('team_place_text', $pid);
-    if(! $team_place) {
-        $team_place = '';
-    } else {
-        $team_place = ' - ' . $team_place;
-    }
-
     return <<<EOT
     <h4>
         $team_title
-        <span class="grey-text hsbc-right-subtitle">$team_place</span>
+        <span class="grey-text hsbc-right-subtitle"> I MIEJSCE </span>
     </h4>
     <p class="flow-text">
         $team_description
@@ -344,6 +337,10 @@ function hsbc_partial_team_two($teams) {
     $team_templates_joined = join(' ', $team_templates);
 
     return <<<EOT
+    <h4>
+        Laureaci
+        <span class="grey-text hsbc-right-subtitle"> 2 i 3 MIEJSCA </span>
+    </h4>
     <div class="row">
     $team_templates_joined
     </div>
