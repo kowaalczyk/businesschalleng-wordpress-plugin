@@ -68,7 +68,7 @@
 }
 
 .hsbc-jumbo {
-    height: 80vh;
+    height: 61.8vh;
 }
 
 .hsbc-jumbo-content {
@@ -115,7 +115,7 @@
 /* card */
 .card-image {
     overflow: hidden;
-    max-height: 80vh;
+    max-height: 61.8vh;
 }
 
 h3.card-title.hsbc-card-title {
