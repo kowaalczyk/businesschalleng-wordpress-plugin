@@ -25,13 +25,12 @@ get_header(); ?>
                 <div class="row">
                     <div class="col s12 m12 l7">
                         <h4>
-                            Let's talk!
+                            <?php the_field('text_heading') ?>
                         </h4>
                         <div class="divider"></div>
                         <p class="flow-text">
                             <br>
-                            Śmiało piszcie do nas ze wszystkimi pytaniami w wiadomościach na nasz fanpage (formularz obok) lub w wiadomościach mailowych na adres
-                            <a href="mailto:kontakt@businesschallenge.pl">kontakt@businesschallenge.pl</a>.
+                            <?php the_field('text_main') ?>
                         </p>
                     </div>
                     <div class="col s12 m12 l5">
