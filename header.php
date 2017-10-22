@@ -19,7 +19,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>High School Business Challenge Dev Theme</title>
+    <title>High School Business Challenge</title>
 
     <meta charset="UTF-8">
 
