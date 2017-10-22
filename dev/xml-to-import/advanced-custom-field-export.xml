@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-09 19:07" -->
+<!-- generator="WordPress/4.8.2" created="2017-10-22 15:33" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,20 +26,20 @@
 >
 
 <channel>
-	<title>High School Business Challenge Dev</title>
-	<link>http://localhost</link>
-	<description>High School Business Challenge</description>
-	<pubDate>Mon, 09 Oct 2017 19:07:46 +0000</pubDate>
+	<title>High School Business Challenge</title>
+	<link>http://businesschallenge.pl</link>
+	<description>Oficjalna strona konkursu High School Business Challenge</description>
+	<pubDate>Sun, 22 Oct 2017 15:33:28 +0000</pubDate>
 	<language></language>
 	<wp:wxr_version>1.1</wp:wxr_version>
-	<wp:base_site_url>http://localhost</wp:base_site_url>
-	<wp:base_blog_url>http://localhost</wp:base_blog_url>
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>root</wp:author_login><wp:author_email>k.kowaalczyk@gmail.com</wp:author_email><wp:author_display_name><![CDATA[root]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:base_site_url>http://businesschallenge.pl</wp:base_site_url>
+	<wp:base_blog_url>http://businesschallenge.pl</wp:base_blog_url>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>kowal</wp:author_login><wp:author_email>k.kowaalczyk@gmail.com</wp:author_email><wp:author_display_name><![CDATA[kowal]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 	<item>
 		<title>Force HSBC Page</title>
-		<link>http://localhost/?acf=acf_force-hsbc-page</link>
+		<link>http://businesschallenge.pl/?acf=acf_force-hsbc-page</link>
 		<pubDate>Sat, 30 Sep 2017 10:31:45 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=107</guid>
 		<wp:post_id>107</wp:post_id>
 		<wp:post_date>2017-09-30 10:31:45</wp:post_date>
@@ -70,7 +70,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>hide_on_screen</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{i:0;s:9:"permalink";i:1;s:11:"the_content";i:2;s:7:"excerpt";i:3;s:13:"custom_fields";i:4;s:10:"discussion";i:5;s:8:"comments";i:6;s:9:"revisions";i:7;s:4:"slug";i:8;s:6:"author";i:9;s:6:"format";i:10;s:14:"featured_image";i:11;s:10:"categories";i:12;s:4:"tags";i:13;s:15:"send-trackbacks";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{i:0;s:11:"the_content";i:1;s:7:"excerpt";i:2;s:13:"custom_fields";i:3;s:10:"discussion";i:4;s:8:"comments";i:5;s:9:"revisions";i:6;s:6:"author";i:7;s:6:"format";i:8;s:14:"featured_image";i:9;s:10:"categories";i:10;s:15:"send-trackbacks";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
@@ -79,9 +79,9 @@
 	</item>
 	<item>
 		<title>HSBC Page: Current Edition</title>
-		<link>http://localhost/?acf=acf_hsbc-page-current-edition</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-current-edition</link>
 		<pubDate>Sat, 30 Sep 2017 11:09:00 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=109</guid>
 		<wp:post_id>109</wp:post_id>
 		<wp:post_date>2017-09-30 11:09:00</wp:post_date>
@@ -99,16 +99,12 @@
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>field_59cf732f22279</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59cf732f22279";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:108:"Large image on the top of the page (with parallax effect).Size: 1280x720px - 1920x1080px, no more than 2MB.";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>field_59cf73cf2227a</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf73cf2227a";s:5:"label";s:19:"First section title";s:4:"name";s:19:"first_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:55:"Title of the first section, no more than 16 characters.";s:8:"required";s:1:"1";s:13:"default_value";s:12:"Aktualności";s:11:"placeholder";s:12:"Aktualności";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf73cf2227a";s:5:"label";s:19:"First section title";s:4:"name";s:19:"first_section_title";s:4:"type";s:4:"text";s:12:"instructions";s:55:"Title of the first section, no more than 16 characters.";s:8:"required";s:1:"1";s:13:"default_value";s:12:"Aktualności";s:11:"placeholder";s:12:"Aktualności";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf74ed2227b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf74ed2227b";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:34:"Select posts for the first section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf74ed2227b";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:34:"Select posts for the first section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf74f62227c</wp:meta_key>
@@ -116,7 +112,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf79892227f</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf79892227f";s:5:"label";s:20:"Second section posts";s:4:"name";s:20:"second_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:35:"Select posts for the second section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf79892227f";s:5:"label";s:20:"Second section posts";s:4:"name";s:20:"second_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:35:"Select posts for the second section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf75122227d</wp:meta_key>
@@ -124,7 +120,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf7ade22280</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf7ade22280";s:5:"label";s:19:"Third section posts";s:4:"name";s:19:"third_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:34:"Select posts for the third section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:9";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"4";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf7ade22280";s:5:"label";s:19:"Third section posts";s:4:"name";s:19:"third_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:34:"Select posts for the third section";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf75602227e</wp:meta_key>
@@ -132,7 +128,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cf7afc22281</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf7afc22281";s:5:"label";s:20:"Fourth section posts";s:4:"name";s:20:"fourth_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:35:"Select posts for the fourth section";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59cf7afc22281";s:5:"label";s:20:"Fourth section posts";s:4:"name";s:20:"fourth_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:35:"Select posts for the fourth section";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -147,19 +143,23 @@
 			<wp:meta_value><![CDATA[a:10:{i:0;s:11:"the_content";i:1;s:7:"excerpt";i:2;s:10:"discussion";i:3;s:8:"comments";i:4;s:9:"revisions";i:5;s:6:"author";i:6;s:6:"format";i:7;s:14:"featured_image";i:8;s:4:"tags";i:9;s:15:"send-trackbacks";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-current.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_key>field_59e531a48d2f8</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59e531a48d2f8";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:45:"Large image displayed on the top of the page.";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-current.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Standard Post</title>
-		<link>http://localhost/?acf=acf_hsbc-standard-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-standard-post</link>
 		<pubDate>Sat, 30 Sep 2017 16:15:12 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=111</guid>
 		<wp:post_id>111</wp:post_id>
 		<wp:post_date>2017-09-30 16:15:12</wp:post_date>
@@ -186,7 +186,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cfafa7827bc</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59cfafa7827bc";s:5:"label";s:10:"Side image";s:4:"name";s:10:"side_image";s:4:"type";s:5:"image";s:12:"instructions";s:22:"Select the side image.";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59cfafa7827bc";s:5:"label";s:10:"Side image";s:4:"name";s:5:"image";s:4:"type";s:5:"image";s:12:"instructions";s:22:"Select the side image.";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaf37827bb";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59cfaffc827bd</wp:meta_key>
@@ -210,11 +210,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0dadfcd64f</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0dadfcd64f";s:5:"label";s:15:"More paragraphs";s:4:"name";s:15:"more_paragraphs";s:4:"type";s:12:"relationship";s:12:"instructions";s:119:"Select HSBC Text Components that will be added below the main post text. Their titles will be displayed as subheadings.";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:3";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0da7ccd64e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0dadfcd64f";s:5:"label";s:15:"More paragraphs";s:4:"name";s:15:"more_paragraphs";s:4:"type";s:12:"relationship";s:12:"instructions";s:119:"Select HSBC Text Components that will be added below the main post text. Their titles will be displayed as subheadings.";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:9";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0da7ccd64e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9a6cd64b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d0d9a6cd64b";s:5:"label";s:13:"Flashy button";s:4:"name";s:13:"flashy_button";s:4:"type";s:11:"post_object";s:12:"instructions";s:71:"Select HSBC Button Component that will be displayed as a flashy button.";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaffc827bd";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d0d9a6cd64b";s:5:"label";s:13:"Flashy button";s:4:"name";s:13:"flashy_button";s:4:"type";s:11:"post_object";s:12:"instructions";s:71:"Select HSBC Button Component that will be displayed as a flashy button.";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59cfaffc827bd";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9cfcd64c</wp:meta_key>
@@ -222,7 +222,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d9fecd64d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0d9fecd64d";s:5:"label";s:14:"Normal buttons";s:4:"name";s:14:"normal_buttons";s:4:"type";s:12:"relationship";s:12:"instructions";s:70:"Select HSBC Button Components that will be displayed as normal buttons";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:4";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0d9cfcd64c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:10;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0d9fecd64d";s:5:"label";s:14:"Normal buttons";s:4:"name";s:14:"normal_buttons";s:4:"type";s:12:"relationship";s:12:"instructions";s:70:"Select HSBC Button Components that will be displayed as normal buttons";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d0d9cfcd64c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:10;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59dbad3824cde</wp:meta_key>
@@ -238,18 +238,18 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"6";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Force HSBC Component or HSBC Post</title>
-		<link>http://localhost/?acf=acf_force-hsbc-component-or-hsbc-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_force-hsbc-component-or-hsbc-post</link>
 		<pubDate>Sun, 01 Oct 2017 11:47:33 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=118</guid>
 		<wp:post_id>118</wp:post_id>
 		<wp:post_date>2017-10-01 13:47:33</wp:post_date>
@@ -289,9 +289,9 @@
 	</item>
 	<item>
 		<title>HSBC Text Component</title>
-		<link>http://localhost/?acf=acf_hsbc-text-component</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-text-component</link>
 		<pubDate>Sun, 01 Oct 2017 11:55:41 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=122</guid>
 		<wp:post_id>122</wp:post_id>
 		<wp:post_date>2017-10-01 13:55:41</wp:post_date>
@@ -310,19 +310,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0d6ed36b46</wp:meta_key>
-			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d0d6ed36b46";s:5:"label";s:12:"Text Content";s:4:"name";s:12:"text_content";s:4:"type";s:8:"textarea";s:12:"instructions";s:28:"Text will be auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"3";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d0d6ed36b46";s:5:"label";s:12:"Text Content";s:4:"name";s:12:"text_content";s:4:"type";s:8:"textarea";s:12:"instructions";s:28:"Text will be auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -336,12 +324,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"9";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Button Component</title>
-		<link>http://localhost/?acf=acf_hsbc-button-component</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-button-component</link>
 		<pubDate>Sun, 01 Oct 2017 12:52:45 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=144</guid>
 		<wp:post_id>144</wp:post_id>
 		<wp:post_date>2017-10-01 14:52:45</wp:post_date>
@@ -372,27 +372,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0e34c3014d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0e34c3014d";s:5:"label";s:4:"File";s:4:"name";s:8:"file_url";s:4:"type";s:4:"file";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}s:13:"59d0e4243014f";a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d0e34c3014d";s:5:"label";s:4:"File";s:4:"name";s:8:"file_url";s:4:"type";s:4:"file";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}i:1;a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0e47330150</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d0e47330150";s:5:"label";s:4:"Page";s:4:"name";s:8:"page_url";s:4:"type";s:9:"page_link";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"page";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}s:13:"59d0e4a230151";a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d0e47330150";s:5:"label";s:4:"Page";s:4:"name";s:8:"page_url";s:4:"type";s:9:"page_link";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:4:"page";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}i:1;a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d0e4aa30152</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0e4aa30152";s:5:"label";s:3:"URL";s:4:"name";s:8:"link_url";s:4:"type";s:4:"text";s:12:"instructions";s:64:"Paste the URL that should be opened after the button is clicked.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}s:13:"59d0e50730153";a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d0e4aa30152";s:5:"label";s:3:"URL";s:4:"name";s:8:"link_url";s:4:"type";s:4:"text";s:12:"instructions";s:64:"Paste the URL that should be opened after the button is clicked.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:2:{i:0;a:3:{s:5:"field";s:19:"field_59d0e3213014c";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}i:1;a:3:{s:5:"field";s:19:"field_59d0e3bc3014e";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -406,12 +394,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"10";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Team Member Component</title>
-		<link>http://localhost/?acf=acf_hsbc-team-member-component</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-team-member-component</link>
 		<pubDate>Sun, 01 Oct 2017 17:00:50 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=148</guid>
 		<wp:post_id>148</wp:post_id>
 		<wp:post_date>2017-10-01 19:00:50</wp:post_date>
@@ -430,23 +430,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11e7f02ae8</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11e7f02ae8";s:5:"label";s:9:"Full name";s:4:"name";s:9:"full_name";s:4:"type";s:4:"text";s:12:"instructions";s:53:"Name and surename of the team member. Auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d11e7f02ae8";s:5:"label";s:9:"Full name";s:4:"name";s:9:"full_name";s:4:"type";s:4:"text";s:12:"instructions";s:53:"Name and surename of the team member. Auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d11ea602ae9</wp:meta_key>
-			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d11ea602ae9";s:5:"label";s:16:"About the member";s:4:"name";s:16:"about_the_member";s:4:"type";s:8:"textarea";s:12:"instructions";s:103:"Auto-formatted, will be displayed only for winning team members. Try to keep it between 5 and 15 words.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:1:"4";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"13";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d11ea602ae9";s:5:"label";s:16:"About the member";s:4:"name";s:16:"about_the_member";s:4:"type";s:8:"textarea";s:12:"instructions";s:103:"Auto-formatted, will be displayed only for winning team members. Try to keep it between 5 and 15 words.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:1:"4";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -460,12 +448,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"7";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Team Component</title>
-		<link>http://localhost/?acf=acf_hsbc-team-component</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-team-component</link>
 		<pubDate>Sun, 01 Oct 2017 17:05:49 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=149</guid>
 		<wp:post_id>149</wp:post_id>
 		<wp:post_date>2017-10-01 19:05:49</wp:post_date>
@@ -500,7 +500,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d120190aa60</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d120190aa60";s:5:"label";s:12:"Team members";s:4:"name";s:12:"team_members";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Member Components that represent the mambers of the team.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:13";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"6";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d120190aa60";s:5:"label";s:12:"Team members";s:4:"name";s:12:"team_members";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Member Components that represent the mambers of the team.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:7";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"6";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -524,14 +524,14 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"11";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"6";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC List Post</title>
-		<link>http://localhost/?acf=acf_hsbc-list-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-list-post</link>
 		<pubDate>Sun, 01 Oct 2017 17:21:07 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=150</guid>
 		<wp:post_id>150</wp:post_id>
 		<wp:post_date>2017-10-01 19:21:07</wp:post_date>
@@ -550,23 +550,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d122df0fd54</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d122df0fd54";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:4:"text";s:12:"instructions";s:42:"Text displayed above the list, unformatted";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d122df0fd54";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:4:"text";s:12:"instructions";s:42:"Text displayed above the list, unformatted";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d1230b0fd55</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d1230b0fd55";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:37:"Select teams that You want to display";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:11";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"7";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d1230b0fd55";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:37:"Select teams that You want to display";s:8:"required";s:1:"0";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -580,12 +568,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"13";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC External Media Post</title>
-		<link>http://localhost/?acf=acf_hsbc-external-media-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-external-media-post</link>
 		<pubDate>Sun, 01 Oct 2017 17:26:51 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=151</guid>
 		<wp:post_id>151</wp:post_id>
 		<wp:post_date>2017-10-01 19:26:51</wp:post_date>
@@ -604,23 +604,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d12427002d2</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12427002d2";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:4:"text";s:12:"instructions";s:52:"Text displayed above included media, auto-formatted.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12427002d2";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:4:"text";s:12:"instructions";s:52:"Text displayed above included media, auto-formatted.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d1245b002d3</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d1245b002d3";s:5:"label";s:22:"External media content";s:4:"name";s:22:"external_media_content";s:4:"type";s:4:"text";s:12:"instructions";s:186:"Paste the content to external media, just as it is specified on their site. If possible, specify height="720" width="1280" attributes - YouTube example shown below as a placeholder text:";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:123:"<iframe width="1280" height="720" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"8";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d1245b002d3";s:5:"label";s:22:"External media content";s:4:"name";s:22:"external_media_content";s:4:"type";s:4:"text";s:12:"instructions";s:186:"Paste the content to external media, just as it is specified on their site. If possible, specify height="720" width="1280" attributes - YouTube example shown below as a placeholder text:";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:123:"<iframe width="1280" height="720" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -634,12 +622,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"12";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Calendar Post</title>
-		<link>http://localhost/?acf=acf_hsbc-calendar-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-calendar-post</link>
 		<pubDate>Sun, 01 Oct 2017 17:37:49 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=152</guid>
 		<wp:post_id>152</wp:post_id>
 		<wp:post_date>2017-10-01 19:37:49</wp:post_date>
@@ -649,32 +649,12 @@
 		<wp:post_name>acf_hsbc-calendar-post</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>acf</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>field_59d1268cc5a4a</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d1268cc5a4a";s:5:"label";s:10:"Event name";s:4:"name";s:10:"event_name";s:4:"type";s:4:"text";s:12:"instructions";s:55:"Name of the event, try to keep it lesst than 5-6 words.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d126c5c5a4b";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>field_59d126c5c5a4b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_59d126c5c5a4b";s:5:"label";s:14:"One day event?";s:4:"name";s:13:"one_day_event";s:4:"type";s:10:"true_false";s:12:"instructions";s:62:"Select this if event start date is the same as event end date.";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>field_59d12703c5a4c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d12703c5a4c";s:5:"label";s:10:"Event date";s:4:"name";s:10:"event_date";s:4:"type";s:11:"date_picker";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"date_format";s:8:"dd-mm-yy";s:14:"display_format";s:8:"dd-mm-yy";s:9:"first_day";s:1:"1";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d126c5c5a4b";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>field_59d127bbc5a4d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d127bbc5a4d";s:5:"label";s:16:"Event start date";s:4:"name";s:16:"event_start_date";s:4:"type";s:11:"date_picker";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"date_format";s:8:"dd-mm-yy";s:14:"display_format";s:8:"dd-mm-yy";s:9:"first_day";s:1:"1";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d126c5c5a4b";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>field_59d127d2c5a4f</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d127d2c5a4f";s:5:"label";s:14:"Event end date";s:4:"name";s:14:"event_end_date";s:4:"type";s:11:"date_picker";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"date_format";s:8:"dd-mm-yy";s:14:"display_format";s:8:"dd-mm-yy";s:9:"first_day";s:1:"1";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"1";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_59d126c5c5a4b";s:8:"operator";s:2:"!=";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -689,23 +669,59 @@
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>field_59e3d9e0ce81a</wp:meta_key>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59e3d9e0ce81a";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:8:"textarea";s:12:"instructions";s:53:"Text displayed between post title and calendar events";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3dad97cf79</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3dad97cf79";s:5:"label";s:17:"Registration text";s:4:"name";s:17:"registration_text";s:4:"type";s:4:"text";s:12:"instructions";s:31:"Title of the box, keep it short";s:8:"required";s:1:"1";s:13:"default_value";s:11:"Rejestracja";s:11:"placeholder";s:11:"Rejestracja";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3dc6c7cf7d</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3dc6c7cf7d";s:5:"label";s:18:"Registration dates";s:4:"name";s:18:"registration_dates";s:4:"type";s:4:"text";s:12:"instructions";s:17:"Text, unformatted";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:13:"DD.MM - DD.MM";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3db207cf7a</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3db207cf7a";s:5:"label";s:9:"Test text";s:4:"name";s:9:"test_text";s:4:"type";s:4:"text";s:12:"instructions";s:31:"Title of the box, keep it short";s:8:"required";s:1:"1";s:13:"default_value";s:11:"Test online";s:11:"placeholder";s:11:"Test online";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3dcef7cf7e</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3dcef7cf7e";s:5:"label";s:10:"Test dates";s:4:"name";s:10:"test_dates";s:4:"type";s:4:"text";s:12:"instructions";s:17:"Text, unformatted";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:13:"DD.MM - DD.MM";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3dd0c7cf7f</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3dd0c7cf7f";s:5:"label";s:18:"Presentation dates";s:4:"name";s:18:"presentation_dates";s:4:"type";s:4:"text";s:12:"instructions";s:17:"Text, unformatted";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:13:"DD.MM - DD.MM";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3db447cf7b</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3db447cf7b";s:5:"label";s:17:"Presentation text";s:4:"name";s:17:"presentation_text";s:4:"type";s:4:"text";s:12:"instructions";s:31:"Title of the box, keep it short";s:8:"required";s:1:"1";s:13:"default_value";s:11:"Prezentacje";s:11:"placeholder";s:11:"Prezentacje";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3db5b7cf7c</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3db5b7cf7c";s:5:"label";s:10:"Final text";s:4:"name";s:10:"final_text";s:4:"type";s:4:"text";s:12:"instructions";s:31:"Title of the box, keep it short";s:8:"required";s:1:"1";s:13:"default_value";s:6:"Finał";s:11:"placeholder";s:6:"Finał";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:7;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e3dd247cf80</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59e3dd247cf80";s:5:"label";s:11:"Final dates";s:4:"name";s:11:"final_dates";s:4:"type";s:4:"text";s:12:"instructions";s:17:"Text, unformatted";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:13:"DD.MM - DD.MM";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:2:"16";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:8;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"11";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"9";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Team Post</title>
-		<link>http://localhost/?acf=acf_hsbc-team-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-team-post</link>
 		<pubDate>Sun, 01 Oct 2017 17:43:59 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=153</guid>
 		<wp:post_id>153</wp:post_id>
 		<wp:post_date>2017-10-01 19:43:59</wp:post_date>
@@ -724,23 +740,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d128c615412</wp:meta_key>
-			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d128c615412";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:8:"textarea";s:12:"instructions";s:60:"Standard text displayed above the team info, auto-formatted.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d128c615412";s:5:"label";s:9:"Post text";s:4:"name";s:9:"post_text";s:4:"type";s:8:"textarea";s:12:"instructions";s:60:"Standard text displayed above the team info, auto-formatted.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d128ef15413</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d128ef15413";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:151:"Select one or more teams (HSBC Team Components): 1 => displayed as winning team, 2=> displayed as 2nd and 3rd team, 3 or more => displayed as finalists";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:11";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"10";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d128ef15413";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:151:"Select one or more teams (HSBC Team Components): 1 => displayed as winning team, 2=> displayed as 2nd and 3rd team, 3 or more => displayed as finalists";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -754,12 +758,24 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"8";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Partner Post</title>
-		<link>http://localhost/?acf=acf_hsbc-partner-post</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-partner-post</link>
 		<pubDate>Sun, 01 Oct 2017 17:50:29 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=154</guid>
 		<wp:post_id>154</wp:post_id>
 		<wp:post_date>2017-10-01 19:50:29</wp:post_date>
@@ -782,7 +798,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d129f1db72d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d129f1db72d";s:5:"label";s:12:"Partner logo";s:4:"name";s:12:"partner_logo";s:4:"type";s:5:"image";s:12:"instructions";s:83:"Standard size is 640x360, format as png file, should never be larger than 400-500KB";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d129f1db72d";s:5:"label";s:12:"Partner logo";s:4:"name";s:12:"partner_logo";s:4:"type";s:5:"image";s:12:"instructions";s:83:"Standard size is 640x360, format as png file, should never be larger than 400-500KB";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:6:"medium";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d12a52db72e</wp:meta_key>
@@ -806,7 +822,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4eef5a4118</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4eef5a4118";s:5:"label";s:12:"Partner type";s:4:"name";s:12:"partner_type";s:4:"type";s:4:"text";s:12:"instructions";s:109:"Specify partner type, if necessary. Max 3 words, will be displayed as a grey sub-header next to partner name.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4eef5a4118";s:5:"label";s:12:"Partner type";s:4:"name";s:12:"partner_type";s:4:"type";s:4:"text";s:12:"instructions";s:109:"Specify partner type, if necessary. Max 3 words, will be displayed as a grey sub-header next to partner name.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
@@ -814,18 +830,18 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"4";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"12";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:2:"14";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Page: Edition</title>
-		<link>http://localhost/?acf=acf_hsbc-page-edition</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-edition</link>
 		<pubDate>Sun, 01 Oct 2017 18:16:54 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=155</guid>
 		<wp:post_id>155</wp:post_id>
 		<wp:post_date>2017-10-01 20:16:54</wp:post_date>
@@ -844,27 +860,19 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d12f60a8f12</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12f60a8f12";s:5:"label";s:12:"Edition name";s:4:"name";s:12:"edition_name";s:4:"type";s:4:"text";s:12:"instructions";s:51:"Use arabic numbers in page name, roman numbers here";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:8:"I EDYCJA";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12f60a8f12";s:5:"label";s:12:"Edition name";s:4:"name";s:12:"edition_name";s:4:"type";s:4:"text";s:12:"instructions";s:51:"Use arabic numbers in page name, roman numbers here";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:8:"I EDYCJA";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d12fc3a8f13</wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d12fc3a8f13";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59d12fc3a8f13";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:44:"Large image displayed on the top of the page";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d12feca8f14</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12feca8f14";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:79:"Select team posts for winner, 2nd and 3rd teams, finalist teams (in that order)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d12feca8f14";s:5:"label";s:5:"Teams";s:4:"name";s:5:"teams";s:4:"type";s:12:"relationship";s:12:"instructions";s:79:"Select team posts for winner, 2nd and 3rd teams, finalist teams (in that order)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:8";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d13072a8f15</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d13072a8f15";s:5:"label";s:8:"Partners";s:4:"name";s:8:"partners";s:4:"type";s:12:"relationship";s:12:"instructions";s:59:"Select HSBC Partner posts to be displayed for this edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-edition.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d13072a8f15";s:5:"label";s:8:"Partners";s:4:"name";s:8:"partners";s:4:"type";s:12:"relationship";s:12:"instructions";s:59:"Select HSBC Partner posts to be displayed for this edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:14";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -878,12 +886,20 @@
 			<wp:meta_key>hide_on_screen</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-edition.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Page: Contact</title>
-		<link>http://localhost/?acf=acf_hsbc-page-contact</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-contact</link>
 		<pubDate>Wed, 04 Oct 2017 14:31:27 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=156</guid>
 		<wp:post_id>156</wp:post_id>
 		<wp:post_date>2017-10-04 16:31:27</wp:post_date>
@@ -902,19 +918,19 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4effc7e12d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4effc7e12d";s:5:"label";s:12:"Text heading";s:4:"name";s:12:"text_heading";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4effc7e12d";s:5:"label";s:12:"Text heading";s:4:"name";s:12:"text_heading";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f05d7e130</wp:meta_key>
-			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d4f05d7e130";s:5:"label";s:9:"Text main";s:4:"name";s:9:"text_main";s:4:"type";s:8:"textarea";s:12:"instructions";s:77:"Displayed below the title, alongside Facebook contact widget. Auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"none";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59d4f05d7e130";s:5:"label";s:9:"Text main";s:4:"name";s:9:"text_main";s:4:"type";s:8:"textarea";s:12:"instructions";s:77:"Displayed below the title, alongside Facebook contact widget. Auto-formatted.";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"html";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-contact.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -931,9 +947,9 @@
 	</item>
 	<item>
 		<title>HSBC Page: Organizer</title>
-		<link>http://localhost/?acf=acf_hsbc-page-organizer</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-organizer</link>
 		<pubDate>Wed, 04 Oct 2017 14:35:19 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=157</guid>
 		<wp:post_id>157</wp:post_id>
 		<wp:post_date>2017-10-04 16:35:19</wp:post_date>
@@ -952,7 +968,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f0d5ec0cf</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f0d5ec0cf";s:5:"label";s:15:"Organizer posts";s:4:"name";s:15:"organizer_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:61:"Select posts representing organizers (use HSBC Partner Posts)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"3";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f0d5ec0cf";s:5:"label";s:15:"Organizer posts";s:4:"name";s:15:"organizer_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:61:"Select posts representing organizers (use HSBC Partner Posts)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:14";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:1:"3";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -967,19 +983,23 @@
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_key>field_59e0e0be82366</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59e0e0be82366";s:5:"label";s:11:"Jumbo image";s:4:"name";s:11:"jumbo_image";s:4:"type";s:5:"image";s:12:"instructions";s:105:"Image displayed on the top of the page. For this page, select wide image (1280-1920px, much lower height)";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:5:"large";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:27:"page-templates/page-org.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Page: Partners</title>
-		<link>http://localhost/?acf=acf_hsbc-page-partners</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-partners</link>
 		<pubDate>Wed, 04 Oct 2017 14:38:57 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=158</guid>
 		<wp:post_id>158</wp:post_id>
 		<wp:post_date>2017-10-04 16:38:57</wp:post_date>
@@ -1002,7 +1022,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f1edb8c7d</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f1edb8c7d";s:5:"label";s:14:"Partners posts";s:4:"name";s:14:"partners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:67:"Select HSBC Partner Posts representing partners of current edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:12";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f1edb8c7d";s:5:"label";s:14:"Partners posts";s:4:"name";s:14:"partners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:67:"Select HSBC Partner Posts representing partners of current edition.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:14";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";s:0:"";s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1018,18 +1038,18 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/page-partners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/page-partners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Page: Cases</title>
-		<link>http://localhost/?acf=acf_hsbc-page-cases</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-cases</link>
 		<pubDate>Wed, 04 Oct 2017 14:52:53 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=159</guid>
 		<wp:post_id>159</wp:post_id>
 		<wp:post_date>2017-10-04 16:52:53</wp:post_date>
@@ -1056,7 +1076,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4125ae2a</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4125ae2a";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:53:"Select posts with that have links to questions/cases.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f4125ae2a";s:5:"label";s:19:"First section posts";s:4:"name";s:19:"first_section_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:53:"Select posts with that have links to questions/cases.";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4755ae2b</wp:meta_key>
@@ -1064,7 +1084,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4bb5ae2c</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f4bb5ae2c";s:5:"label";s:19:"Second section post";s:4:"name";s:19:"second_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f4bb5ae2c";s:5:"label";s:19:"Second section post";s:4:"name";s:19:"second_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f4f05ae2d</wp:meta_key>
@@ -1072,7 +1092,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f5105ae2e</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f5105ae2e";s:5:"label";s:18:"Third section post";s:4:"name";s:18:"third_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard Post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:6";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_59d4f5105ae2e";s:5:"label";s:18:"Third section post";s:4:"name";s:18:"third_section_post";s:4:"type";s:11:"post_object";s:12:"instructions";s:69:"Select one HSBC Standard Post that will be displayed in this section.";s:8:"required";s:1:"1";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:5";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1088,18 +1108,18 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:29:"page-templates/page-cases.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:29:"page-templates/page-cases.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>HSBC Page: Winners</title>
-		<link>http://localhost/?acf=acf_hsbc-page-winners</link>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-page-winners</link>
 		<pubDate>Wed, 04 Oct 2017 15:01:36 +0000</pubDate>
-		<dc:creator>root</dc:creator>
+		<dc:creator>kowal</dc:creator>
 		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=160</guid>
 		<wp:post_id>160</wp:post_id>
 		<wp:post_date>2017-10-04 17:01:36</wp:post_date>
@@ -1122,7 +1142,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_59d4f5e62cd6b</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f5e62cd6b";s:5:"label";s:13:"Winners posts";s:4:"name";s:13:"winners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Posts that contain (one winning team in each one of them)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:11:"category:10";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59d4f5e62cd6b";s:5:"label";s:13:"Winners posts";s:4:"name";s:13:"winners_posts";s:4:"type";s:12:"relationship";s:12:"instructions";s:74:"Select HSBC Team Posts that contain (one winning team in each one of them)";s:8:"required";s:1:"1";s:13:"return_format";s:6:"object";s:9:"post_type";a:1:{i:0;s:4:"post";}s:8:"taxonomy";a:1:{i:0;s:10:"category:8";}s:7:"filters";a:1:{i:0;s:6:"search";}s:15:"result_elements";a:1:{i:0;s:9:"post_type";}s:3:"max";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
@@ -1138,11 +1158,127 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-winners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:31:"page-templates/page-winners.php";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>HSBC Custom Metadata: Logo</title>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-custom-metadata-logo</link>
+		<pubDate>Mon, 16 Oct 2017 21:40:25 +0000</pubDate>
+		<dc:creator>kowal</dc:creator>
+		<guid isPermaLink="false">http://localhost/?post_type=acf&#038;p=543</guid>
+		<wp:post_id>543</wp:post_id>
+		<wp:post_date>2017-10-16 21:40:25</wp:post_date>
+		<wp:post_date_gmt>2017-10-16 21:40:25</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_hsbc-custom-metadata-logo</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59e526dad512c</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_59e526dad512c";s:5:"label";s:9:"HSBC Logo";s:4:"name";s:9:"hsbc_logo";s:4:"type";s:5:"image";s:12:"instructions";s:108:"Select a logo that will be displayed on the navbar. NEVER DELETE THIS POST - IT MAY CORRUPT THE ENTIRE PAGE.";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"3";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:4:"post";s:8:"operator";s:2:"==";s:5:"value";s:3:"541";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>HSBC Custom Metadata: Footer</title>
+		<link>http://businesschallenge.pl/?acf=acf_hsbc-custom-metadata-footer</link>
+		<pubDate>Sun, 22 Oct 2017 15:29:55 +0000</pubDate>
+		<dc:creator>kowal</dc:creator>
+		<guid isPermaLink="false">http://businesschallenge.pl/?post_type=acf&#038;p=898</guid>
+		<wp:post_id>898</wp:post_id>
+		<wp:post_date>2017-10-22 15:29:55</wp:post_date>
+		<wp:post_date_gmt>2017-10-22 15:29:55</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_hsbc-custom-metadata-footer</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>field_59ecb84463733</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59ecb84463733";s:5:"label";s:18:"HSBC Contact Email";s:4:"name";s:18:"hsbc_contact_email";s:4:"type";s:4:"text";s:12:"instructions";s:71:"Email displayed on the footer (automatically converts to clicable link)";s:8:"required";s:1:"1";s:13:"default_value";s:28:"kontakt@businesschallenge.pl";s:11:"placeholder";s:28:"kontakt@businesschallenge.pl";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59ecb88263734</wp:meta_key>
+			<wp:meta_value><![CDATA[a:13:{s:3:"key";s:19:"field_59ecb88263734";s:5:"label";s:20:"HSBC Contact Address";s:4:"name";s:20:"hsbc_contact_address";s:4:"type";s:8:"textarea";s:12:"instructions";s:52:"2-4 lines of address. Line breaks will be preserved.";s:8:"required";s:1:"1";s:13:"default_value";s:84:"SKN BIZNESU Szkoła Główna Handlowa aleja Niepodległości 162 02-554 Warszawa ";s:11:"placeholder";s:83:"SKN BIZNESU  Szkoła Główna Handlowa  aleja Niepodległości 162  02-554 Warszawa";s:9:"maxlength";s:0:"";s:4:"rows";s:1:"4";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59ecb90863736</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59ecb90863736";s:5:"label";s:23:"HSBC Facebook Page Link";s:4:"name";s:23:"hsbc_facebook_page_link";s:4:"type";s:4:"text";s:12:"instructions";s:77:"URL of the Facebook page, auto-formatted. Leave empty to disable footer link.";s:8:"required";s:1:"0";s:13:"default_value";s:36:"https://www.facebook.com/hsbcpoland/";s:11:"placeholder";s:36:"https://www.facebook.com/hsbcpoland/";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59ecb8ce63735</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59ecb8ce63735";s:5:"label";s:22:"HSBC YouTube Page Link";s:4:"name";s:22:"hsbc_youtube_page_link";s:4:"type";s:4:"text";s:12:"instructions";s:76:"URL of the YouTube page, auto-formatted. Leave empty to disable footer link.";s:8:"required";s:1:"0";s:13:"default_value";s:56:"https://www.youtube.com/channel/UC8bdfqrExupyU2WGevCsCig";s:11:"placeholder";s:56:"https://www.youtube.com/channel/UC8bdfqrExupyU2WGevCsCig";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_59ecb93063737</wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_59ecb93063737";s:5:"label";s:19:"HSBC SKNB Page Link";s:4:"name";s:19:"hsbc_sknb_page_link";s:4:"type";s:4:"text";s:12:"instructions";s:41:"URL of SKNB page, leave empty to disable.";s:8:"required";s:1:"0";s:13:"default_value";s:20:"http://sknbiznes.pl/";s:11:"placeholder";s:20:"http://sknbiznes.pl/";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"3";s:8:"order_no";i:1;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:4:"post";s:8:"operator";s:2:"==";s:5:"value";s:3:"896";s:8:"order_no";i:2;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
