@@ -21,7 +21,9 @@ get_header(); ?>
 
     <div class="card" id="zwyciezcy">
         <div class="card-image">
-            <h3 class="card-title hsbc-card-title">Zwycięzcy poprzednich edycji</h3>
+            <h3 class="card-title hsbc-card-title">
+                <?php the_title() ?>
+            </h3>
         </div>
         <div class="card-content">
             <?php

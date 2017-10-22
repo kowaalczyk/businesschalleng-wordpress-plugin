@@ -22,7 +22,9 @@ get_header(); ?>
     <div class="card" id="partnerzy">
         <div class="card-image">
             <img src="<?php the_field('jumbo_image') ?>" alt="">
-            <h3 class="card-title hsbc-card-title">Partnerzy bieżącej edycji</h3>
+            <h3 class="card-title hsbc-card-title">
+                <?php the_title() ?>
+            </h3>
         </div>
         <div class="card-content">
             <?php

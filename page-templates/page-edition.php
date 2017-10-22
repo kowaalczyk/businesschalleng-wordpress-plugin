@@ -27,7 +27,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col l12 hide-on-med-and-down">
                     <h1 class="hsbc-jumbo-text">
-                        <?php the_title() ?>
+                        <?php the_title(); ?>
                     </h1>
                 </div>
                 <div class="col l12 hsbc-jumbo-text-placeholder">
