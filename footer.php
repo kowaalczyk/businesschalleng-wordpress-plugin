@@ -12,6 +12,16 @@
  * @version 0.1
  */
 
+//getting custom global metadata (placeholder for sites without ACF Premium)
+$hsbc_logo_data_post = get_page_by_path('hsbc-footer-data-post-do-not-delete', OBJECT, 'post');
+$data_pid = $hsbc_logo_data_post->ID;
+
+$hsbc_contact_email = get_field('hsbc_contact_email', $data_pid);
+$hsbc_contact_address = get_field('hsbc_contact_address', $data_pid);
+
+$hsbc_facebook_page_link = get_field('hsbc_facebook_page_link', $data_pid);
+$hsbc_youtube_page_link = get_field('hsbc_youtube_page_link', $data_pid);
+$hsbc_sknb_page_link = get_field('hsbc_sknb_page_link', $data_pid);
 ?>
 
 <footer class="page-footer">
@@ -22,22 +32,25 @@
                     High School Business Challenge
                 </h5>
                 <p class="grey-text text-lighten-4">
-                    <a href="mailto:kontakt@businesschallenge.pl" class="grey-text text-lighten-3">kontakt@businesschallenge.pl</a>
+                    <a href="mailto:<?php echo $hsbc_contact_email ?>" class="grey-text text-lighten-3"><?php echo $hsbc_contact_email ?></a>
                     <br>
                 <address>
-                    SKN BIZNESU <br>
-                    Szkoła Główna Handlowa <br>
-                    aleja Niepodległości 162 <br>
-                    02-554 Warszawa <br>
+                    <?php echo $hsbc_contact_address ?>
                 </address>
                 </p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Follow us</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/hsbcpoland/">Facebook</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC8bdfqrExupyU2WGevCsCig">YouTube</a></li>
-                    <li><a class="grey-text text-lighten-3" href="http://sknbiznes.pl/">SKN Biznesu</a></li>
+                    <?php if ($hsbc_facebook_page_link): ?>
+                    <li><a class="grey-text text-lighten-3" href="<?php echo $hsbc_facebook_page_link ?>">Facebook</a></li>
+                    <?php endif; ?>
+                    <?php if ($hsbc_youtube_page_link): ?>
+                    <li><a class="grey-text text-lighten-3" href="<?php echo $hsbc_youtube_page_link ?>">YouTube</a></li>
+                    <?php endif; ?>
+                    <?php if ($hsbc_sknb_page_link): ?>
+                    <li><a class="grey-text text-lighten-3" href="<?php echo $hsbc_sknb_page_link ?>">SKN Biznesu</a></li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </div>
@@ -47,7 +60,7 @@
             © SKN Biznesu
             <span class="grey-text text-lighten-4 right">
                     Projekt i wykonanie strony: <a href="https://www.linkedin.com/in/kowaalczyk/" class="grey-text text-lighten-3">Krzysztof Kowalczyk</a>
-                </span>
+            </span>
         </div>
     </div>
 </footer>
