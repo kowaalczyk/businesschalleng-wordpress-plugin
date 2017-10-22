@@ -175,7 +175,12 @@ h3.card-title.hsbc-card-title {
     margin: 8.5px auto;
 }
 
-/* calendar */
+/* partner posts */
+img.hsbc-partner-image {
+    width: 100%;
+}
+
+/* calendar posts */
 p.hsbc-calendar {
     text-transform: uppercase;
     font-weight: bold;

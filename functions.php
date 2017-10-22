@@ -533,9 +533,9 @@ function hsbc_post_partner($pid) {
     return <<<EOT
     <div class="section">
         <div class="row">
-            <div class="col s12 m6 l5">
+            <div class="col s12 m6 l5 center-align">
                 <a href="$partner_url" target="_blank">
-                    <img class="responsive-img"
+                    <img class="responsive-img hsbc-partner-image"
                      src="$partner_logo"
                      alt="">                
                 </a>
