@@ -496,7 +496,6 @@ EOT;
 function hsbc_post_team($pid) {
     $team_components = get_field('teams', $pid);
     $team_display_style = get_field('display_style', $pid);
-//    TODO: find a way to inject side-text for 2nd and 3rd place
 
     switch ($team_display_style) {
         case 'winner':
