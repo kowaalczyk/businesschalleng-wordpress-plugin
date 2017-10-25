@@ -126,13 +126,12 @@ function hsbc_minor_formatter($pid) {
 EOT;
 }
 
-function hsbc_team_two_template($pid) {
+function hsbc_team_two_template($pid, $subtitle) {
     $team_title = get_field('team_name', $pid);
     $team_description = get_field('team_description', $pid);
     $team_photo = get_field('team_photo', $pid);
     $team_members = hsbc_get_team_members($pid, 'hsbc_secondary_formatter');
     $team_members_joined = join(' ', $team_members);
-    $team_place = get_field('team_place_text', $pid);
     if(! $team_place) {
         $team_place = '';
     } else {
@@ -143,7 +142,7 @@ function hsbc_team_two_template($pid) {
     <div class="col s12 m6 l6">
         <h5>
             $team_title 
-            <span class="grey-text hsbc-right-subtitle">$team_place</span>
+            <span class="grey-text hsbc-right-subtitle">$subtitle</span>
         </h5>
         <p>
             $team_description
@@ -300,7 +299,7 @@ function hsbc_partial_team_list($pid) {
 EOT;
 }
 
-function hsbc_partial_team_one($teams) {
+function hsbc_partial_team_one($teams, $subtitle) {
     $pid = $teams[0]->ID;
 
     $team_title = get_field('team_name', $pid);
@@ -312,7 +311,7 @@ function hsbc_partial_team_one($teams) {
     return <<<EOT
     <h4>
         $team_title
-        <span class="grey-text hsbc-right-subtitle"> I MIEJSCE </span>
+        <span class="grey-text hsbc-right-subtitle"> $subtitle </span>
     </h4>
     <p class="flow-text">
         $team_description
@@ -331,18 +330,16 @@ EOT;
 
 }
 
-function hsbc_partial_team_two($teams) {
+function hsbc_partial_team_two($teams, $subtitle_left, $subtitle_right) {
     $team_ids = array_column($teams, 'ID');
-    $team_templates = array_map('hsbc_team_two_template', $team_ids);
-    $team_templates_joined = join(' ', $team_templates);
+    $team_left = hsbc_team_two_template($team_ids[0], $subtitle_left);
+    $team_right = hsbc_team_two_template($team_ids[1], $subtitle_right);
 
     return <<<EOT
-    <h4>
-        Laureaci
-        <span class="grey-text hsbc-right-subtitle"> 2 i 3 MIEJSCA </span>
-    </h4>
     <div class="row">
-    $team_templates_joined
+        $team_left
+        
+        $team_right
     </div>
 EOT;
 }
@@ -498,15 +495,33 @@ EOT;
 
 function hsbc_post_team($pid) {
     $team_components = get_field('teams', $pid);
-    switch (sizeof($team_components)) {
-        case 1:
-            $team_partial = hsbc_partial_team_one($team_components);
+    $team_display_style = get_field('display_style', $pid);
+//    TODO: find a way to inject side-text for 2nd and 3rd place
+
+    switch ($team_display_style) {
+        case 'winner':
+            $winner_subtitle = get_field('winner_subtitle', $pid);
+            if(! $winner_subtitle) {
+                $winner_subtitle = '';
+            }
+            $team_partial = hsbc_partial_team_one($team_components, $winner_subtitle);
             break;
-        case 2:
-            $team_partial = hsbc_partial_team_two($team_components);
+        case 'laureate':
+            $first_subtitle = get_field('first_team_subtitle', $pid);
+            $second_subtitle = get_field('second_team_subtitle', $pid);
+
+            if((! $first_subtitle) || (! $second_subtitle)) {
+                $first_subtitle = '';
+                $second_subtitle = '';
+            }
+
+            $team_partial = hsbc_partial_team_two($team_components, $first_subtitle, $second_subtitle);
+            break;
+        case 'finalist':
+            $team_partial = hsbc_partial_team_many($team_components, $pid);
             break;
         default:
-            $team_partial = hsbc_partial_team_many($team_components, $pid);
+            $team_partial = '';
             break;
     }
 
