@@ -39,25 +39,25 @@ Current Edition Page Template [DONE]
 - `fourth_section_title` - Text
 - `fourth_section_posts` - Relationship - HSBC Posts, multiple values, allowed null
 
-Edition Page Template [DONE]
+Edition Page Template [DONE]  
 `edition_name` - text, unformatted
 `jumbo_image` - image URL
 `teams` - relationship, HSBC Team Posts
 `partners` - relationship, HSBC Partner Posts
 
-Contact Page Template [DONE]
+Contact Page Template [DONE]  
 `text_heading` - text, unformatted
 `text_main` - text, with HTML tags
 
-Organizer Page Template [DONE]
+Organizer Page Template [DONE]  
 `jumbo_image` - image URL
 `organizer_posts` - relationship, HSBC Partner Posts
 
-Partner Page Template [DONE]
+Partner Page Template [DONE]  
 `jumbo_image` - image URL
 `partners_posts` - relationship, HSBC Partner Posts
 
-Cases Page Template [DONE]
+Cases Page Template [DONE]  
 `jumbo_image` - image URL
 `first_section_title`  - text, unformatted
 `first_section_posts` - relationship, HSBC Posts
@@ -66,20 +66,20 @@ Cases Page Template [DONE]
 `third_section_title` - text, unformatted
 `third_section_post` - post object, HSBC Standard Post
 
-Winners Page Template [DONE]
+Winners Page Template [DONE]  
 `jumbo_image` - image URL
 `winners_posts` - relationship, HSBC Team Posts
 
 
-HSBC Components
+#### HSBC Components  
 
-Components are a custom post category used within HSBC posts only.
-They DO NOT have their own templates, each component represents only a content that its parent HSBC post decides to display in a certain way.
+Components are a custom post category used within HSBC posts only.  
+They DO NOT have their own templates, each component represents only a content that its parent HSBC post decides to display in a certain way.  
 
-HSBC Text Component [DONE]
+HSBC Text Component [DONE]  
 `text_content` - text, unformatted. Used instead of `post_text`.
 
-HSBC Button Component [DONE]
+HSBC Button Component [DONE]  
 `button_text` - text, unformatted. Used instead of `post_text`.
 `link_to_file` - boolean
 `file_url` - URL of the file, if `link_to_file`
@@ -87,11 +87,11 @@ HSBC Button Component [DONE]
 `page_url` - URL of the page, if `link_to_page`
 `link_url` - URL of the link, if not `link_to_file` and not `link_to_page`, not validated #TODO: Path validation
 
-HSBC Team Member Component [DONE]
+HSBC Team Member Component [DONE]  
 `full_name` - text, unformatted
 `about_the_member` - text, unformatted. Displayed only for winning team members.
 
-HSBC Team Component [DONE]
+HSBC Team Component [DONE]  
 `team_name` - text, unformatted
 `team_mentor` - text, unformatted
 `team_description` - text, unformatted
@@ -99,14 +99,13 @@ HSBC Team Component [DONE]
 `team_members` - relationship, HSBC Team Member Components
 
 
-HSBC Posts
+#### HSBC Posts  
 
-The code for rendering posts is placed under template-parts, files are named `hsbc_post-post_type`, and can be included in page template php code using
-`get_template_part("hsbc_post", "post_type")`.
+The code for rendering posts is placed under template-parts, files are named `hsbc_post-post_type`, and can be included in page template php code using  
+`get_template_part("hsbc_post", "post_type")`.  
 
-Always set `$p` as current post object when calling `get_template_part` on any HSBC post -  #TODO: Test and use templates in functions.php
 
-HSBC Standard post [DONE]
+HSBC Standard post [DONE]  
 `post_text` - text, unformatted
 `add_side_image` - boolean
 `image` - URL of the image, if `add_side_image`
@@ -119,15 +118,15 @@ HSBC Standard post [DONE]
 `add_normal_buttons` - boolean
 `normal_buttons` - relationship, HSBC Button Component posts
 
-HSBC List post [DONE]
+HSBC List post [DONE]  
 `post_text` - text, unformatted
 `teams` - relationship, HSBC Team Components
 
-HSBC External media post [DONE]
+HSBC External media post [DONE]  
 `post_text` - text, unformatted
 `external_media_content` - text, HTML converted into tags #TODO: Really test this
 
-HSBC Calendar post
+HSBC Calendar post [DONE]  
 `post_text` - text, unformatted
 `registration_logo` - text, HTML into tags  (SVG)
 `registration_text` - text, unformatted
@@ -142,18 +141,19 @@ HSBC Calendar post
 `final_text` - text, unformatted
 `final_dates` - text, unformatted
 
+Previous calendar post version:  
 `event_name` - text, unformatted
 `one_day_event` - boolean
 `event_date` - date string `dd-mm-yy`, if `one_day_event`
 `event_start_date` - date string `dd-mm-yy`, unless `one_day_event`
 `event_end_date` - date string `dd-mm-yy`, unless `one_day_event`
 
-HSBC Team post [DONE]
+HSBC Team post [DONE]  
 `post_text` - text, unformatted
 `display_style` - `winner`, `laureate` or `finalist` (checkbox)
 `teams` - relationship, HSBC Team Components
 
-HSBC Partner post [DONE]
+HSBC Partner post [DONE]  
 `partner_logo` - image URL
 `partner_website` - URL, #TODO: validate
 `partner_description` - text, unformatted
