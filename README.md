@@ -158,3 +158,6 @@ HSBC Partner post [DONE]
 `partner_website` - URL, #TODO: validate
 `partner_description` - text, unformatted
 `partner_type` - text, unformatted
+
+## License information  
+Copyright (c) SKN Biznesu SGH, all rights reserved.  
