@@ -3,8 +3,7 @@ A wp-admin plugin for High School Business Challenge website.
 
 ## Introduction
 As a member of Students' Business Club at Warsaw School of Economics, design and maintenance of websites is my core responsibility. 
-Being a working student, at the time preparing for exams, and learning PHP along the way, I made a lot of unnecessary mistakes - the website had to be moved from node.js server and angular.js theme to 
-wordpress plugin ASAP, and it resulted in several crucial mistakes - in particular:  
+Being a working student, at the time preparing for exams, and learning PHP along the way, I made a lot of unnecessary mistakes - the website had to be moved from node.js server and angular.js theme (https://github.com/kowaalczyk/js-businesschallenge-website) to wordpress plugin ASAP, and it resulted in several crucial mistakes - in particular:  
 - plugin relies on ACF and clever use of wordpress post categories for data validation, this does not allow visual preview until changes to post are saved
 - extending page (with new pages that do not fit into any currently used category, or with new languages) is nearly impossible in current state of the plugin  
 - theme structure is a little different from standard, in particular the `functions.php` which contains a lot of HTML template strings (copying stuff from previous template, this was the quickest solution I found at the time)
